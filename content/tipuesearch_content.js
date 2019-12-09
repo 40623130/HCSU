@@ -1,0 +1,1 @@
+var tipuesearch = {"pages": [{'title': 'About', 'text': '成員: \n 葉修宏 \n 張育瑋 \n 張華倞 \n 陳鉅忠 \n 此網站專門記錄專題完成進度，以便隨後整理至最後報告使用。 \n Blog用以填寫日誌', 'tags': '', 'url': 'About.html'}, {'title': '維修3D Print', 'text': '', 'tags': '', 'url': '維修3D Print.html'}, {'title': '手足球', 'text': '', 'tags': '', 'url': '手足球.html'}]};
