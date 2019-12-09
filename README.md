@@ -1,2 +1,2 @@
 # HCSU
-To saving date
+網站:https://40623130.github.io/HCSU
