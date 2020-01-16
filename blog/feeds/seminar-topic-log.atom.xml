@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-01-16T04:50:00+08:00</updated><entry><title>專題進度-3</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-3.html" rel="alternate"></link><published>2020-01-16T04:50:00+08:00</published><updated>2020-01-16T04:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-16:/HCSU/blog/Seminar Topic-3.html</id><summary type="html">&lt;p&gt;今天早上被要求打掃了實驗室。&lt;/p&gt;
+&lt;p&gt;下午專題 : &lt;/p&gt;
+&lt;p&gt;討論了一下模型組裝零件的採購，目前正在煩惱...。&lt;/p&gt;
+&lt;p&gt;導入了簡易版的模型進CoppeliaSim，但因為改版的問題對外聯Python發現code的名稱都改了。&lt;/p&gt;</summary><content type="html">&lt;p&gt;今天早上被要求打掃了實驗室。&lt;/p&gt;
+&lt;p&gt;下午專題 : &lt;/p&gt;
+&lt;p&gt;討論了一下模型組裝零件的採購，目前正在煩惱...。&lt;/p&gt;
+&lt;p&gt;導入了簡易版的模型進CoppeliaSim，但因為改版的問題對外聯Python發現code的名稱都改了。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-2</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-2.html" rel="alternate"></link><published>2020-01-14T04:50:00+08:00</published><updated>2020-01-14T04:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-14:/HCSU/blog/Seminar Topic-2.html</id><summary type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
+進度:
+找出大型3D列印機的問題並修復&lt;/p&gt;
+&lt;p&gt;CoppeliaSim模擬器
+進度:
+UI介面設定及研究如何編入程式中&lt;/p&gt;
+&lt;p&gt;展示實體
+進度:
+電梯及手足球球檯簡易版設計中。&lt;/p&gt;
+&lt;p&gt;這邊寫簡易版設計，主要原因出於想展示的是並非機構設計的多複雜而是虛實整合的概念。&lt;/p&gt;
+&lt;p&gt;電梯的部分就出了很多機構的問題，像是開關門、平衡或是制動等等...&lt;/p&gt;</summary><content type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
+進度:
+找出大型3D列印機的問題並修復&lt;/p&gt;
+&lt;p&gt;CoppeliaSim模擬器
+進度:
+UI介面設定及研究如何編入程式中&lt;/p&gt;
+&lt;p&gt;展示實體
+進度:
+電梯及手足球球檯簡易版設計中。&lt;/p&gt;
+&lt;p&gt;這邊寫簡易版設計，主要原因出於想展示的是並非機構設計的多複雜而是虛實整合的概念。&lt;/p&gt;
+&lt;p&gt;電梯的部分就出了很多機構的問題，像是開關門、平衡或是制動等等...&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-1</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-1.html" rel="alternate"></link><published>2020-01-13T05:30:00+08:00</published><updated>2020-01-13T05:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-13:/HCSU/blog/Seminar Topic-1.html</id><summary type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
+進度:
+線材&amp;amp;鋁擠型:規格or材質
+購買管道&lt;/p&gt;
+&lt;p&gt;手機控制介面編寫
+進度:
+Flutter 介面入門及版面編排&lt;/p&gt;
+&lt;p&gt;目前:已經成功寫出上下左右並設至好每個按鈕間的相對位子。&lt;/p&gt;
+&lt;p&gt;CoppeliaSim模擬器
+進度:
+lua物件導向寫法研究&lt;/p&gt;</summary><content type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
+進度:
+線材&amp;amp;鋁擠型:規格or材質
+購買管道&lt;/p&gt;
+&lt;p&gt;手機控制介面編寫
+進度:
+Flutter 介面入門及版面編排&lt;/p&gt;
+&lt;p&gt;目前:已經成功寫出上下左右並設至好每個按鈕間的相對位子。&lt;/p&gt;
+&lt;p&gt;CoppeliaSim模擬器
+進度:
+lua物件導向寫法研究&lt;/p&gt;</content><category term="KMOL-專題"></category></entry></feed>
