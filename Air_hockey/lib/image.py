@@ -4,6 +4,13 @@ from PIL import Image as I
 import array
 import cv2, numpy
 
+"""
+0 = Auto Defense (done)
+1 = Auto Attack + Defense (undone)
+2 = Player + player (Application) (undone)
+"""
+
+play_mode == 0
 
 def speed(handle,speed):
     sim.simxSetJointTargetVelocity(clientID,handle,speed,sim.simx_opmode_oneshot_wait)
@@ -98,29 +105,62 @@ if clientID!=-1:
     res, v0 = sim.simxGetObjectHandle(clientID, 'vs1', sim.simx_opmode_oneshot_wait)
     res, v1 = sim.simxGetObjectHandle(clientID, 'vs2', sim.simx_opmode_oneshot_wait)
     err, resolution, image = sim.simxGetVisionSensorImage(clientID, v0, 0, sim.simx_opmode_streaming)
-    err,Ball_handle=sim.simxGetObjectHandle(clientID,'Ball',sim.simx_opmode_oneshot_wait)
-    err,player_x_handle=sim.simxGetObjectHandle(clientID,'player_x_joint',sim.simx_opmode_oneshot_wait)
-    err,player_y_handle=sim.simxGetObjectHandle(clientID,'player_y_joint',sim.simx_opmode_oneshot_wait)
+    err,Ball_handle=sim.simxGetObjectHandle(clientID,'Ball', sim.simx_opmode_oneshot_wait)
+    err,player_x_handle=sim.simxGetObjectHandle(clientID, 'player_x_joint', sim.simx_opmode_oneshot_wait)
+    err,player_y_handle=sim.simxGetObjectHandle(clientID, 'player_y_joint', sim.simx_opmode_oneshot_wait)
     time.sleep(1)
     while (sim.simxGetConnectionId(clientID) != -1):
-        print('1')
+        #print('1')
         err, resolution, image = sim.simxGetVisionSensorImage(clientID, v0, 0, sim.simx_opmode_buffer)
         if err == sim.simx_return_ok:
-            print('2')
+            #print('2')
             image_byte_array = array.array('b', image)
             image_buffer = I.frombuffer("RGB", (resolution[0],resolution[1]), bytes(image_byte_array), "raw", "RGB", 0, 1)
             img2 = numpy.asarray(image_buffer)
             ret_green = track_green_object(img2)
             ret_red = track_red_object(img2)
             ret_blue = track_blue_object(img2)
-            if ret_green:
-                print('3')
+            # Find Green And Red Object
+            if ret_green and ret_red:
                 cv2.rectangle(img2,(ret_green[0]-10,ret_green[1]-10), (ret_green[0]+10,ret_green[1]+10), (0x99,0xff,0x33), 1)
-            if ret_red:
-                print('4')
                 cv2.rectangle(img2,(ret_red[0]-10,ret_red[1]-10), (ret_red[0]+10,ret_red[1]+10), (0xff,0x33,0x33), 1)
+                #print('G_X = ', ret_green[0],'G_Y = ', ret_green[1])
+                #print('R_X = ', ret_red[0],'R_Y = ', ret_red[1])
+                
+                # Rx_v  > 0 => the green is at the right of the Red
+                Rx = ret_green[0] - ret_red[0]
+                #print(Rx)
+                # Rx_v  > 0 => the green is at the front of the Red
+                Ry = ret_green[1] - ret_red[1]
+                #print(Ry)
+                if play_mode == 0:
+                    # Auto Defense
+                    if Rx > 0:
+                        Rx_v = Rx**2
+                    else:
+                        Rx_v = -(Rx**2)
+                    if Ry > 0:
+                        Ry_v = Ry**2
+                    else:
+                        Ry_v = -(Ry**2)
+                    
+                    if ret_red[0] <  ret_green[0]:
+                        speed(player_x_handle,-Rx_v*0.01)
+                    elif ret_red[0] >  ret_green[0]:
+                        speed(player_x_handle,-Rx_v*0.01)
+                    else:
+                        speed(player_x_handle,0)
+                    
+            else:
+                if not ret_green:
+                    print('Not Found Green Object')
+                if not ret_red:
+                    print('Not Found Red Object')
+            
+            # vs2 display
             img2 = img2.ravel()
             sim.simxSetVisionSensorImage(clientID, v1, img2, 0, sim.simx_opmode_oneshot)
+            
         elif err == sim.simx_return_novalue_flag:
             print("no image yet")
             pass
