@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/</loc>
-<lastmod>2020-01-17T15:54:28-00:00</lastmod>
+<lastmod>2020-01-20T17:51:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/archives.html</loc>
-<lastmod>2020-01-17T15:54:28-00:00</lastmod>
+<lastmod>2020-01-20T17:51:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/tags.html</loc>
-<lastmod>2020-01-17T15:54:28-00:00</lastmod>
+<lastmod>2020-01-20T17:51:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/categories.html</loc>
-<lastmod>2020-01-17T15:54:28-00:00</lastmod>
+<lastmod>2020-01-20T17:51:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://40623130.github.io/HCSU/blog/pages/about/</loc>
 <lastmod>2020-01-16T14:06:48+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://40623130.github.io/HCSU/blog/Seminar Topic-5.html</loc>
+<lastmod>2020-01-20T05:50:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/category/seminar-topic-log.html</loc>
-<lastmod>2020-01-17T03:54:00+08:06</lastmod>
+<lastmod>2020-01-20T05:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -89,7 +96,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/tag/kmol-zhuan-ti.html</loc>
-<lastmod>2020-01-17T03:54:00+08:06</lastmod>
+<lastmod>2020-01-20T05:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,7 +110,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/author/hcsu.html</loc>
-<lastmod>2020-01-17T03:54:00+08:06</lastmod>
+<lastmod>2020-01-20T05:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
