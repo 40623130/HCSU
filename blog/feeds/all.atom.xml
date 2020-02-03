@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-01-21T03:50:00+08:00</updated><entry><title>專題進度-6</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-6.html" rel="alternate"></link><published>2020-01-21T03:50:00+08:00</published><updated>2020-01-21T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-21:/HCSU/blog/Seminar Topic-6.html</id><summary type="html">&lt;p&gt;今天過後開始休過年到2月3號繼續專題。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-03T03:00:00+08:00</updated><entry><title>專題進度-7</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-7.html" rel="alternate"></link><published>2020-02-03T03:00:00+08:00</published><updated>2020-02-03T03:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-03:/HCSU/blog/Seminar Topic-7.html</id><summary type="html">&lt;p&gt;年假結束...&lt;/p&gt;
+&lt;p&gt;開始關切學校是否會因武漢肺炎影響而延後開學。
+&lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3054365"&gt;News&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;看新聞上寫預計今天2 : 30各校於教育部開會是否延後開學。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;今日進度:&lt;/p&gt;
-&lt;p&gt;影像辨識 : 利用Lua編寫完成能於V-rep內影像辨識及對打。&lt;/p&gt;
+&lt;p&gt;影像辨識 : 簡易預測球體行經路徑。&lt;/p&gt;
+&lt;p&gt;零件 : Chack 到貨物零件、領貨、更新報價表。&lt;/p&gt;
+&lt;p&gt;模型 : 修改部分零件、列印零件並測試組配。&lt;/p&gt;
+&lt;p&gt;Server : 重試數次還是不知道如何使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;CoppeliaSim : 暫時沒有想法來編寫球體反彈的預測路徑。&lt;/p&gt;
+&lt;p&gt;Server : 出現技術上問題，目前暫時停滯該項目。&lt;/p&gt;</summary><content type="html">&lt;p&gt;年假結束...&lt;/p&gt;
+&lt;p&gt;開始關切學校是否會因武漢肺炎影響而延後開學。
+&lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3054365"&gt;News&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;看新聞上寫預計今天2 : 30各校於教育部開會是否延後開學。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;影像辨識 : 簡易預測球體行經路徑。&lt;/p&gt;
+&lt;p&gt;零件 : Chack 到貨物零件、領貨、更新報價表。&lt;/p&gt;
+&lt;p&gt;模型 : 修改部分零件、列印零件並測試組配。&lt;/p&gt;
+&lt;p&gt;Server : 重試數次還是不知道如何使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;CoppeliaSim : 暫時沒有想法來編寫球體反彈的預測路徑。&lt;/p&gt;
+&lt;p&gt;Server : 出現技術上問題，目前暫時停滯該項目。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-6</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-6.html" rel="alternate"></link><published>2020-01-21T03:50:00+08:00</published><updated>2020-01-21T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-21:/HCSU/blog/Seminar Topic-6.html</id><summary type="html">&lt;p&gt;今天過後開始休過年到2月3號繼續專題。&lt;/p&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;影像辨識 : 利用Lua編寫鍵盤控制(Blue)，能於V-rep內與電腦對打。&lt;/p&gt;
 &lt;p&gt;大台的3DP修復 : 線路處理。&lt;/p&gt;
 &lt;p&gt;模型 : 訂購部分材料、模型繪製完成95%。&lt;/p&gt;
 &lt;p&gt;Server : 測試可攜版並嘗試架設。&lt;/p&gt;
@@ -10,7 +36,7 @@
 &lt;p&gt;採購 : 正在考慮使用何種控制板及配電相關問題。&lt;/p&gt;
 &lt;p&gt;Server : 可攜版本出現很多問題...例如 : 架設完成後重新開機又不能使用或VB抓不到com找不到能用的cpu之類的。&lt;/p&gt;</summary><content type="html">&lt;p&gt;今天過後開始休過年到2月3號繼續專題。&lt;/p&gt;
 &lt;p&gt;今日進度:&lt;/p&gt;
-&lt;p&gt;影像辨識 : 利用Lua編寫完成能於V-rep內影像辨識及對打。&lt;/p&gt;
+&lt;p&gt;影像辨識 : 利用Lua編寫鍵盤控制(Blue)，能於V-rep內與電腦對打。&lt;/p&gt;
 &lt;p&gt;大台的3DP修復 : 線路處理。&lt;/p&gt;
 &lt;p&gt;模型 : 訂購部分材料、模型繪製完成95%。&lt;/p&gt;
 &lt;p&gt;Server : 測試可攜版並嘗試架設。&lt;/p&gt;
