@@ -10,7 +10,7 @@ import cv2, numpy
 2 = Player + player (Application) (undone)
 """
 
-play_mode == 0
+play_mode = 0
 
 def speed(handle,speed):
     sim.simxSetJointTargetVelocity(clientID,handle,speed,sim.simx_opmode_oneshot_wait)
@@ -99,7 +99,7 @@ def track_red_object(image):
 sim.simxFinish(-1)
 clientID = sim.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
 
-if clientID!=-1:
+if clientID != -1:
     print('Connected to remote API server')
   # get vision sensor objects
     res, v0 = sim.simxGetObjectHandle(clientID, 'vs1', sim.simx_opmode_oneshot_wait)
@@ -121,9 +121,10 @@ if clientID!=-1:
             ret_red = track_red_object(img2)
             ret_blue = track_blue_object(img2)
             # Find Green And Red Object
-            if ret_green and ret_red:
-                cv2.rectangle(img2,(ret_green[0]-10,ret_green[1]-10), (ret_green[0]+10,ret_green[1]+10), (0x99,0xff,0x33), 1)
-                cv2.rectangle(img2,(ret_red[0]-10,ret_red[1]-10), (ret_red[0]+10,ret_red[1]+10), (0xff,0x33,0x33), 1)
+            if ret_green and ret_red and ret_blue:
+                cv2.rectangle( img2, (ret_green[0]-3, ret_green[1]-3), (ret_green[0]+3,ret_green[1]+3), (0x99,0xff,0x33), 1)
+                cv2.rectangle( img2, (ret_red[0]-3, ret_red[1]-3), (ret_red[0]+3,ret_red[1]+3), (0xff,0x33,0x33), 1)
+                cv2.rectangle( img2, (ret_blue[0]-3, ret_blue[1]-3), (ret_blue[0]+3,ret_blue[1]+3), (0xff,0x33,0x33), 1)
                 #print('G_X = ', ret_green[0],'G_Y = ', ret_green[1])
                 #print('R_X = ', ret_red[0],'R_Y = ', ret_red[1])
                 
@@ -133,8 +134,9 @@ if clientID!=-1:
                 # Rx_v  > 0 => the green is at the front of the Red
                 Ry = ret_green[1] - ret_red[1]
                 #print(Ry)
+                
+                # Auto Defense mode
                 if play_mode == 0:
-                    # Auto Defense
                     if Rx > 0:
                         Rx_v = Rx**2
                     else:
@@ -145,17 +147,18 @@ if clientID!=-1:
                         Ry_v = -(Ry**2)
                     
                     if ret_red[0] <  ret_green[0]:
-                        speed(player_x_handle,-Rx_v*0.01)
+                        speed(player_x_handle,-Rx_v*0.1)
                     elif ret_red[0] >  ret_green[0]:
-                        speed(player_x_handle,-Rx_v*0.01)
+                        speed(player_x_handle,-Rx_v*0.1)
                     else:
                         speed(player_x_handle,0)
-                    
             else:
                 if not ret_green:
                     print('Not Found Green Object')
                 if not ret_red:
                     print('Not Found Red Object')
+                if not ret_blue:
+                    print('Not Found Blue Object')
             
             # vs2 display
             img2 = img2.ravel()
