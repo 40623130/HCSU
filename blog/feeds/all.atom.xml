@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-03T03:00:00+08:00</updated><entry><title>專題進度-7</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-7.html" rel="alternate"></link><published>2020-02-03T03:00:00+08:00</published><updated>2020-02-03T03:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-03:/HCSU/blog/Seminar Topic-7.html</id><summary type="html">&lt;p&gt;年假結束...&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-04T04:30:00+08:00</updated><entry><title>專題進度-8</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-8.html" rel="alternate"></link><published>2020-02-04T04:30:00+08:00</published><updated>2020-02-04T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-04:/HCSU/blog/Seminar Topic-8.html</id><summary type="html">&lt;p&gt;不知道這篇新聞的可信度，反正肯定會延期，我想一旦延後整個行政作業都會亂掉吧 ? 且不知虎科是否會不補完那兩周的課程，聽說若不補完該校需要寫報告。
+&lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3056972"&gt;News&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;這也導致了一個問題 : 專題發表時間是否會延後或是一樣??&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;影像辨識 : 編寫球體反彈的預測路徑。&lt;/p&gt;
+&lt;p&gt;零件 : 修改部分零件。&lt;/p&gt;
+&lt;p&gt;模型 : 利用Fritzing繪製完配線圖。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : 保養。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;電 : 考慮該使用接近開關還是極限開關，以及安裝的位置與之後接線的問題。&lt;/p&gt;
+&lt;p&gt;零件 : 買的一個類冰球的飄浮玩具，打算自己製作一個。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : Y軸極限開關無法回饋、X軸不規則的間歇性無反應、無法原點賦歸。&lt;/p&gt;</summary><content type="html">&lt;p&gt;不知道這篇新聞的可信度，反正肯定會延期，我想一旦延後整個行政作業都會亂掉吧 ? 且不知虎科是否會不補完那兩周的課程，聽說若不補完該校需要寫報告。
+&lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3056972"&gt;News&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;這也導致了一個問題 : 專題發表時間是否會延後或是一樣??&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;影像辨識 : 編寫球體反彈的預測路徑。&lt;/p&gt;
+&lt;p&gt;零件 : 修改部分零件。&lt;/p&gt;
+&lt;p&gt;模型 : 利用Fritzing繪製完配線圖。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : 保養。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;電 : 考慮該使用接近開關還是極限開關，以及安裝的位置與之後接線的問題。&lt;/p&gt;
+&lt;p&gt;零件 : 買的一個類冰球的飄浮玩具，打算自己製作一個。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : Y軸極限開關無法回饋、X軸不規則的間歇性無反應、無法原點賦歸。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-7</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-7.html" rel="alternate"></link><published>2020-02-03T03:00:00+08:00</published><updated>2020-02-03T03:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-03:/HCSU/blog/Seminar Topic-7.html</id><summary type="html">&lt;p&gt;年假結束...&lt;/p&gt;
 &lt;p&gt;開始關切學校是否會因武漢肺炎影響而延後開學。
 &lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3054365"&gt;News&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;看新聞上寫預計今天2 : 30各校於教育部開會是否延後開學。&lt;/p&gt;
