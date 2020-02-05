@@ -11,8 +11,36 @@
 <h2>Onshape</h2>
 <p><a href="https://cad.onshape.com/documents/604db172fe0b6a8e4523ff06/w/42b40006487ea43eacf29cee/e/1853a9b3ff145cc04d0f8398">圖檔連結</a></p>
 <h2>CoppeliaSim</h2>
-<p><a href="https://cad.onshape.com/documents/d2a84b9c15854a6c31320c01/w/b79a56cd0a7298b5da8c180a/e/dcbb4d417e497dae050d90ee">圖檔連結</a></p>
-<h1>Q&amp;A</h1>
+<p><a href="https://github.com/40623130/HCSU/blob/gh-pages/Air_hockey/Air_Hockey.ttt">測試程式用設定檔</a></p>
+<p>測試程式用圖檔為精簡化圖檔，除去所以與控制程式運行不相干之物件，僅用於控制程式編寫。</p>
+<p>完整版設定檔</p>
+<p>完整版設定檔為保留所有實際物體之圖檔</p><h3>測試用圖檔設定</h3>
+<p><a href="https://cad.onshape.com/documents/d2a84b9c15854a6c31320c01/w/b79a56cd0a7298b5da8c180a/e/dcbb4d417e497dae050d90ee">測試用球桌圖檔(Onshape)</a></p>
+<p>首先需要<span>簡易</span>球桌與球，如下圖</p>
+<p><span>並將圖檔以stl格式匯出</span></p>
+<p><img alt="" height="675" src="/images/test_air_hockey(onshape).png" width="1032"/></p>
+<h4>匯入CoppeliaSim(V-rep)</h4>
+<p>File<em></em><em></em>  <span>→ Import → Mesh</span></p>
+<p>點選Import</p>
+<p><img alt="" height="320" src="/images/coppeliaSim_2020-02-05_14-16-52.png" width="330"/></p>
+<h4>拆解組合圖</h4>
+<p>左鍵選取需拆解之零件</p>
+<p>點選右鍵 <span>→ Edit → Grouping/Merging → Divide selected shapes</span></p>
+<p>完成後圖檔會從組合拆解為各自零件</p>
+<p><img alt="" height="927" src="/images/coppeliaSim_2020-02-05_14-23-40.png" width="1692"/></p>
+<h4>更改球體顏色(用於影像辨識)</h4>
+<p>左鍵點選欲更改之物件 <span>→  點選左側工具欄之放大鏡 →  Adjust color  → Ambient/diffuse component →<span> <span> 使用RGB或HSL調整顏色</span></span></span></p>
+<p><span><span><span><img alt="" height="1032" src="/images/coppeliaSim_2020-02-05_14-32-16.png" width="1919"/></span></span></span></p>
+<h4>自由度設定</h4>
+<p>新增一個立方體用以固定左右移動軸</p>
+<p>新增滑動接頭</p>
+<p><img alt="" height="427" src="/images/coppeliaSim_2020-02-05_14-44-53.png" width="441"/></p>
+<p>固定至相應位置，並更改樹狀資料如下圖</p>
+<p>(球桌短邊命名為X、長<span>邊命名為Y</span>)</p>
+<p><img alt="" height="927" src="/images/coppeliaSim_2020-02-05_14-59-37.png" width="1692"/></p>
+<p>另一邊步驟與上面相同</p>
+<p></p><h3>內部程式</h3>
+<h3>外部程式</h3><h1>Q&amp;A</h1>
 <h2>如何編輯此網站</h2>
 <p>請先clone本<a href="https://github.com/40623130/HCSU">倉儲</a></p>
 <p>倉儲內有一個資料夾(cmsimde)此時會是空的</p>

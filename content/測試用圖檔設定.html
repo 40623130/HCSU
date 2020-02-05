@@ -154,20 +154,32 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Q&A << <a href='Q&A.html'>Previous</a> <br /><h1>如何編輯此網站</h1>
-<p>請先clone本<a href="https://github.com/40623130/HCSU">倉儲</a></p>
-<p>倉儲內有一個資料夾(cmsimde)此時會是空的</p>
-<p>再來利用cmd進入<span style="color: #ff0000;">本倉儲</span>並輸入 </p>
-<pre class="brush:py;auto-links:false;gutter:false;toolbar:false" contenteditable="false">git submodule init</pre>
-<p>以及</p>
-<pre class="brush:py;auto-links:false;gutter:false;toolbar:false" contenteditable="false">git submodule update</pre>
-<p>跑完後資料夾(cmsimde)裡面會有檔案</p>
-<p>如果要編輯跟之前不同之處只差在要執行的wsgi.py在資料夾(cmsimde)裡面</p>
-<p>所以只要先輸入</p>
-<pre class="brush:py;auto-links:false;gutter:false;toolbar:false" contenteditable="false">cd cmsimde</pre>
-<p>再輸入</p>
-<pre class="brush:py;auto-links:false;gutter:false;toolbar:false" contenteditable="false">python wsgi.py</pre>
-<p>之後就可以進行編輯了</p><br />Q&A << <a href='Q&A.html'>Previous</a> </div>
+    <div id="tipue_search_content">CoppeliaSim << <a href='CoppeliaSim.html'>Previous</a> <a href='內部程式.html'>Next</a> >> 內部程式<br /><h1>測試用圖檔設定</h1>
+<p><a href="https://cad.onshape.com/documents/d2a84b9c15854a6c31320c01/w/b79a56cd0a7298b5da8c180a/e/dcbb4d417e497dae050d90ee">測試用球桌圖檔(Onshape)</a></p>
+<p>首先需要<span>簡易</span>球桌與球，如下圖</p>
+<p><span>並將圖檔以stl格式匯出</span></p>
+<p><img alt="" height="675" src="./../images/test_air_hockey(onshape).png" width="1032"/></p>
+<h4>匯入CoppeliaSim(V-rep)</h4>
+<p>File<em></em><em></em>  <span>→ Import → Mesh</span></p>
+<p>點選Import</p>
+<p><img alt="" height="320" src="./../images/coppeliaSim_2020-02-05_14-16-52.png" width="330"/></p>
+<h4>拆解組合圖</h4>
+<p>左鍵選取需拆解之零件</p>
+<p>點選右鍵 <span>→ Edit → Grouping/Merging → Divide selected shapes</span></p>
+<p>完成後圖檔會從組合拆解為各自零件</p>
+<p><img alt="" height="927" src="./../images/coppeliaSim_2020-02-05_14-23-40.png" width="1692"/></p>
+<h4>更改球體顏色(用於影像辨識)</h4>
+<p>左鍵點選欲更改之物件 <span>→  點選左側工具欄之放大鏡 →  Adjust color  → Ambient/diffuse component →<span> <span> 使用RGB或HSL調整顏色</span></span></span></p>
+<p><span><span><span><img alt="" height="1032" src="./../images/coppeliaSim_2020-02-05_14-32-16.png" width="1919"/></span></span></span></p>
+<h4>自由度設定</h4>
+<p>新增一個立方體用以固定左右移動軸</p>
+<p>新增滑動接頭</p>
+<p><img alt="" height="427" src="./../images/coppeliaSim_2020-02-05_14-44-53.png" width="441"/></p>
+<p>固定至相應位置，並更改樹狀資料如下圖</p>
+<p>(球桌短邊命名為X、長<span>邊命名為Y</span>)</p>
+<p><img alt="" height="927" src="./../images/coppeliaSim_2020-02-05_14-59-37.png" width="1692"/></p>
+<p>另一邊步驟與上面相同</p>
+<p></p><br />CoppeliaSim << <a href='CoppeliaSim.html'>Previous</a> <a href='內部程式.html'>Next</a> >> 內部程式</div>
         
     <!-- footer -->
       <div class="container">
