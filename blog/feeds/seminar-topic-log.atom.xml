@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-04T04:30:00+08:00</updated><entry><title>專題進度-8</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-8.html" rel="alternate"></link><published>2020-02-04T04:30:00+08:00</published><updated>2020-02-04T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-04:/HCSU/blog/Seminar Topic-8.html</id><summary type="html">&lt;p&gt;不知道這篇新聞的可信度，反正肯定會延期，我想一旦延後整個行政作業都會亂掉吧 ? 且不知虎科是否會不補完那兩周的課程，聽說若不補完該校需要寫報告。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-05T04:30:00+08:00</updated><entry><title>專題進度-9</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-9.html" rel="alternate"></link><published>2020-02-05T04:30:00+08:00</published><updated>2020-02-05T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-05:/HCSU/blog/Seminar Topic-9.html</id><summary type="html">&lt;p&gt;3月2號開學。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;影像辨識 : 編輯網站。&lt;/p&gt;
+&lt;p&gt;零件 : 修改部分零件。&lt;/p&gt;
+&lt;p&gt;電控 : 編輯網站以及測試是python與ardrino之間的連動&lt;a href="https://github.com/40623130/HCSU/tree/gh-pages/downloads/Pydunio"&gt;code&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : 保養 及 維修Y軸、X軸及Y軸極限開關且可正常原點賦歸。&lt;/p&gt;
+&lt;p&gt;模型 : 對飄浮玩具逆向工程。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;電 : 極限開關安裝的位置與之後接線的問題。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : 剩下進料問題。&lt;/p&gt;</summary><content type="html">&lt;p&gt;3月2號開學。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;影像辨識 : 編輯網站。&lt;/p&gt;
+&lt;p&gt;零件 : 修改部分零件。&lt;/p&gt;
+&lt;p&gt;電控 : 編輯網站以及測試是python與ardrino之間的連動&lt;a href="https://github.com/40623130/HCSU/tree/gh-pages/downloads/Pydunio"&gt;code&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : 保養 及 維修Y軸、X軸及Y軸極限開關且可正常原點賦歸。&lt;/p&gt;
+&lt;p&gt;模型 : 對飄浮玩具逆向工程。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;電 : 極限開關安裝的位置與之後接線的問題。&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : 剩下進料問題。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-8</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-8.html" rel="alternate"></link><published>2020-02-04T04:30:00+08:00</published><updated>2020-02-04T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-04:/HCSU/blog/Seminar Topic-8.html</id><summary type="html">&lt;p&gt;不知道這篇新聞的可信度，反正肯定會延期，我想一旦延後整個行政作業都會亂掉吧 ? 且不知虎科是否會不補完那兩周的課程，聽說若不補完該校需要寫報告。
 &lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3056972"&gt;News&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;這也導致了一個問題 : 專題發表時間是否會延後或是一樣??&lt;/p&gt;
 &lt;hr&gt;
