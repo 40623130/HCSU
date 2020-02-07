@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-06T05:00:00+08:00</updated><entry><title>專題進度-10</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-10.html" rel="alternate"></link><published>2020-02-06T05:00:00+08:00</published><updated>2020-02-06T05:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-06:/HCSU/blog/Seminar Topic-10.html</id><summary type="html">&lt;p&gt;今早有許多零件抵達，所以今天開始裝配模型，實際與理想有點出入，但不至於解決不了問題。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-07T04:30:00+08:00</updated><entry><title>專題進度-11</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-11.html" rel="alternate"></link><published>2020-02-07T04:30:00+08:00</published><updated>2020-02-07T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-07:/HCSU/blog/Seminar Topic-11.html</id><summary type="html">&lt;p&gt;慵懶的一天&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;零件 : 修改皮帶座尺寸以及飄浮球的零件設計。&lt;/p&gt;
+&lt;p&gt;模型 : 組裝及光軸上油。&lt;/p&gt;
+&lt;p&gt;3DP修復 : 保養 以及 平台校正。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;零件 : 風扇頭有點難畫。&lt;/p&gt;
+&lt;p&gt;電控 : 昨天收到的 HR4988SQ 馬達驅動器調整電阻後震動及噪音皆介於可接受的範圍，持續觀察中。&lt;/p&gt;</summary><content type="html">&lt;p&gt;慵懶的一天&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;零件 : 修改皮帶座尺寸以及飄浮球的零件設計。&lt;/p&gt;
+&lt;p&gt;模型 : 組裝及光軸上油。&lt;/p&gt;
+&lt;p&gt;3DP修復 : 保養 以及 平台校正。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;零件 : 風扇頭有點難畫。&lt;/p&gt;
+&lt;p&gt;電控 : 昨天收到的 HR4988SQ 馬達驅動器調整電阻後震動及噪音皆介於可接受的範圍，持續觀察中。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-10</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-10.html" rel="alternate"></link><published>2020-02-06T05:00:00+08:00</published><updated>2020-02-06T05:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-06:/HCSU/blog/Seminar Topic-10.html</id><summary type="html">&lt;p&gt;今早有許多零件抵達，所以今天開始裝配模型，實際與理想有點出入，但不至於解決不了問題。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;影像辨識 : 視訊鏡頭的影像處理。&lt;/p&gt;
