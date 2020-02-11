@@ -110,7 +110,8 @@ if __name__ == '__main__':
                             y2 = ball_positionY[data_number-1]
                             ball_directionX= ball_positionX[data_number-1] - ball_positionX[data_number-4]
                             ball_directionY= ball_positionY[data_number-1] - ball_positionY[data_number-4]
-                            
+                            # 1 = Up or Right
+                            # 2 = Down or Left
                             if ball_directionX < 0:
                                 Ball_DirectionX_Movement = 1
                             elif ball_directionX > 0:
@@ -134,10 +135,10 @@ if __name__ == '__main__':
                                 #Horizontal
                                 elif y1 == y2: 
                                     x = x1
-                                    y = numpy.arange(y2-10,y2+10)
+                                    y = numpy.arange( y2 - 10, y2 + 10)
                                 else:
                                     m = (y2-y1)/(x2-x1)
-                                    if Ball_DirectionY_Movement == 1:
+                                    if Ball_DirectionY_Movement == 1: #Up
                                         y = y1-125
                                         if y < 40:
                                             y = 40
@@ -146,34 +147,59 @@ if __name__ == '__main__':
                                             m = -m
                                             y2 = y
                                             x2 = x
-                                            y = y2 +60
+                                            y = y2 + 100
                                             x = (y - y2)/m + x2
-                                            cv2.line( img2, (int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                        '''
                                         else:
                                             x = (y - y2)/m + x2
-                                            cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                        '''
                                             
-                                    if Ball_DirectionY_Movement == 2:
+                                    if Ball_DirectionY_Movement == 2: #Down
                                         y = y1 + 125
                                         if y > 450 :
                                             y = 450
                                             x = (y - y2)/m + x2
-                                            cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                             m = -m
                                             y2 = y
                                             x2 = x
-                                            y = y2 -60
+                                            y = y2 - 100
                                             x = (y - y2)/m + x2
-                                            cv2.line( img2, (int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                        '''
                                         else:
                                             x = (y - y2)/m + x2
-                                            cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        
-                                    '''
-                                    y = y1+125
-                                    x = (y - y2)/m + x2
-                                    cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                    '''
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                        '''
+                                    if Ball_DirectionX_Movement == 1: #Right
+                                        x = x1 - 100
+                                        if x < 10:
+                                            x = 10
+                                            y = m*(x - x2) + y2
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            m=-m
+                                            x2=x
+                                            y2=y
+                                            x=x2 + 100
+                                            y = m * (x - x2) + y2
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            print('right')
+                                    if Ball_DirectionX_Movement == 2: #Left
+                                        x = x1 + 100
+                                        if x > 248:
+                                            x = 248
+                                            y = m*(x - x2) + y2
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            m=-m
+                                            x2 = x
+                                            y2 = y
+                                            x = x2 - 100
+                                            y = m*(x - x2) + y2
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            print('right')
+                                            
                         else:
                             pass
                         #play_mode  3 end
