@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-11T04:55:00+08:00</updated><entry><title>專題進度-13</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-13.html" rel="alternate"></link><published>2020-02-11T04:55:00+08:00</published><updated>2020-02-11T04:55:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-11:/HCSU/blog/Seminar Topic-13.html</id><summary type="html">&lt;p&gt;今天還是想試著將昨天畫好風扇用出來試試看，意外的可行，所以或許不需要買了。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-12T04:36:00+08:00</updated><entry><title>專題進度-14</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-14.html" rel="alternate"></link><published>2020-02-12T04:36:00+08:00</published><updated>2020-02-12T04:36:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-12:/HCSU/blog/Seminar Topic-14.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;零件 : 安裝極限開關，更換球檯零件 ; 繪製完浮球。&lt;/p&gt;
+&lt;p&gt;程式 : 更改路徑預測程式寫法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;零件 : 浮球部分零件放不進球體內。&lt;/p&gt;</summary><content type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;零件 : 安裝極限開關，更換球檯零件 ; 繪製完浮球。&lt;/p&gt;
+&lt;p&gt;程式 : 更改路徑預測程式寫法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;零件 : 浮球部分零件放不進球體內。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-13</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-13.html" rel="alternate"></link><published>2020-02-11T04:55:00+08:00</published><updated>2020-02-11T04:55:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-11:/HCSU/blog/Seminar Topic-13.html</id><summary type="html">&lt;p&gt;今天還是想試著將昨天畫好風扇用出來試試看，意外的可行，所以或許不需要買了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;零件 : 皮帶座連接馬達，因長度不足所以更改X軸滑塊座上固定極限開關的部位，Y軸滑塊座的極限開關孔洞更改尺寸至公差範圍內 ; 繪製浮球座並更改風扇尺寸，放大了每片扇葉的厚度並減少數量以及將馬達軸的孔洞縮小。&lt;/p&gt;
