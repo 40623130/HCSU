@@ -13,7 +13,7 @@ import ColorRecognition as color
 play_mode = 3
 
 #How much Ball_Position data save (min = 5)
-data_number = 10
+data_number = 5
 if data_number < 5:
     data_number = 5
     
@@ -28,7 +28,9 @@ wall_Y_max = 450
 # 1 = Up or Right
 # 2 = Down or Left
 Ball_DirectionX_Movement = 0
+Ball_DirectionX_Movement_last = 0
 Ball_DirectionY_Movement = 0
+Ball_DirectionY_Movement_last = 0
 def speed( handle, speed):
     sim.simxSetJointTargetVelocity( clientID, handle, speed, sim.simx_opmode_oneshot_wait)
 
@@ -103,11 +105,17 @@ if __name__ == '__main__':
                     #Auto Defense (Path Prediction)
                     elif play_mode == 3:
                         #If get enought data start Path Prediction
-                        if len(ball_positionX) and len(ball_positionY) == data_number:
+                        print('X =',len(ball_positionX),'Y =',len(ball_positionY))
+                        if len(ball_positionX) != data_number:
+                            pass
+                        elif len(ball_positionY) != data_number:
+                            pass
+                        else :
                             #first position
                             x1 = ball_positionX[0]
                             y1 = ball_positionY[0]
                             #last position
+                            print(ball_positionX)
                             x2 = ball_positionX[data_number-1]
                             y2 = ball_positionY[data_number-1]
                             ball_directionX= ball_positionX[data_number-1] - ball_positionX[data_number-4]
@@ -141,7 +149,10 @@ if __name__ == '__main__':
                                 else:
                                     m = (y2-y1)/(x2-x1)
                                     if Ball_DirectionY_Movement == 1: #Up
-                                        if y2 < 170: #ball is close Red_Player wall
+                                        if Ball_DirectionY_Movement_last != 0 and Ball_DirectionY_Movement_last != Ball_DirectionY_Movement:
+                                            for i in range(len(ball_positionY)):
+                                                del ball_positionY[0]
+                                        elif y2 < 170: #ball is close Red_Player wall
                                             y = wall_Y_min
                                             x = (y - y2)/m + x2
                                             if x < wall_X_min: #Ball is close Left wall
@@ -191,7 +202,10 @@ if __name__ == '__main__':
                                         else:
                                             y = y2 - 100
                                             x = (y - y2)/m + x2
-                                            if x < wall_X_min:
+                                            if Ball_DirectionX_Movement_last != 0 and Ball_DirectionX_Movement != Ball_DirectionX_Movement_last:
+                                                for i in range(len(ball_positionX)):
+                                                    del ball_positionX[0]
+                                            elif x < wall_X_min:
                                                 x = wall_X_min
                                                 y = m*(x - x2) + y2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
@@ -213,9 +227,13 @@ if __name__ == '__main__':
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                             else:
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                
+                                        Ball_DirectionY_Movement_last = Ball_DirectionY_Movement
+                                        Ball_DirectionX_Movement_last = Ball_DirectionX_Movement
                                     if Ball_DirectionY_Movement == 2: #Down
-                                        if y2 > 320: #ball is close Red_Player wall
+                                        if Ball_DirectionY_Movement_last != 0 and Ball_DirectionY_Movement_last != Ball_DirectionY_Movement:
+                                            for i in range(len(ball_positionY)):
+                                                del ball_positionY[0]
+                                        elif y2 > 320: #ball is close Red_Player wall
                                             y = wall_Y_max
                                             x = (y - y2)/m + x2
                                             if x < wall_X_min: #Ball is close Left wall
@@ -265,7 +283,10 @@ if __name__ == '__main__':
                                         else:
                                             y = y2 + 100
                                             x = (y - y2)/m + x2
-                                            if x < wall_X_min:
+                                            if Ball_DirectionX_Movement_last != 0 and Ball_DirectionX_Movement != Ball_DirectionX_Movement_last:
+                                                for i in range(len(ball_positionX)):
+                                                    del ball_positionX[0]
+                                            elif x < wall_X_min:
                                                 x = wall_X_min
                                                 y = m*(x - x2) + y2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
@@ -286,78 +307,10 @@ if __name__ == '__main__':
                                                 x = (y - y2)/m + x2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                             else:
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)        
-                                    #elif Ball_DirectionY_Movement == 2: #Down
-                                    '''
-                                    if Ball_DirectionY_Movement == 1: #Up
-                                        y = y1-125
-                                        if y < 40:
-                                            y = 40
-                                            x = (y - y2)/m + x2
-                                            if x < 90:
-                                                x = 10
-                                                y = m*(x - x2) + y2
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                print('left')
-                                            elif x > 170:
-                                                x = 248
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                
-                                                print('right')
-                                            else:
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 + 100
-                                                x = (y - y2)/m + x2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        else:
-                                            x = (y - y2)/m + x2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            
-                                    if Ball_DirectionY_Movement == 2: #Down
-                                        y = y1 + 125
-                                        if y > 450 :
-                                            y = 450
-                                            x = (y - y2)/m + x2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            m = -m
-                                            y2 = y
-                                            x2 = x
-                                            y = y2 - 100
-                                            x = (y - y2)/m + x2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        else:
-                                            x = (y - y2)/m + x2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                    if Ball_DirectionX_Movement == 1: #Right
-                                        x = x1 - 100
-                                        if x < 10:
-                                            x = 10
-                                            y = m*(x - x2) + y2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            m=-m
-                                            x2=x
-                                            y2=y
-                                            x=x2 + 100
-                                            y = m * (x - x2) + y2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                    if Ball_DirectionX_Movement == 2: #Left
-                                        x = x1 + 100
-                                        if x > 248:
-                                            x = 248
-                                            y = m*(x - x2) + y2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            m=-m
-                                            x2 = x
-                                            y2 = y
-                                            x = x2 - 100
-                                            y = m*(x - x2) + y2
-                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                    '''
-                        else:
-                            pass
+                                        Ball_DirectionY_Movement_last = Ball_DirectionY_Movement
+                                        Ball_DirectionX_Movement_last = Ball_DirectionX_Movement
+                            #Path Prediction end
                         #play_mode  3 end
                     #Use to Test
                     else:
