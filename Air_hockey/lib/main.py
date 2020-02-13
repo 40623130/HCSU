@@ -105,7 +105,7 @@ if __name__ == '__main__':
                     #Auto Defense (Path Prediction)
                     elif play_mode == 3:
                         #If get enought data start Path Prediction
-                        print('X =',len(ball_positionX),'Y =',len(ball_positionY))
+                        #print('X =',len(ball_positionX),'Y =',len(ball_positionY))
                         if len(ball_positionX) != data_number:
                             pass
                         elif len(ball_positionY) != data_number:
@@ -115,7 +115,7 @@ if __name__ == '__main__':
                             x1 = ball_positionX[0]
                             y1 = ball_positionY[0]
                             #last position
-                            print(ball_positionX)
+                            #print(ball_positionX)
                             x2 = ball_positionX[data_number-1]
                             y2 = ball_positionY[data_number-1]
                             ball_directionX= ball_positionX[data_number-1] - ball_positionX[data_number-4]
@@ -310,7 +310,17 @@ if __name__ == '__main__':
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                         Ball_DirectionY_Movement_last = Ball_DirectionY_Movement
                                         Ball_DirectionX_Movement_last = Ball_DirectionX_Movement
-                            #Path Prediction end
+                                    #Path Prediction end
+                                    #AutoDefense Start
+                                    if Ball_DirectionY_Movement == 1:
+                                        player_red_positionX = ret_red[0]
+                                        player_red_positionY = ret_red[1]
+                                        y = player_red_positionY
+                                        x = int((y-y2)/m+x2)
+                                        playerX_move_speed = (x - player_red_positionX)*-0.01
+                                        speed(player_x_handle, playerX_move_speed)
+                                        print('x=', x)
+                                        print(ret_green[1])
                         #play_mode  3 end
                     #Use to Test
                     else:
