@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-13T03:50:00+08:00</updated><entry><title>專題進度-15</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-15.html" rel="alternate"></link><published>2020-02-13T03:50:00+08:00</published><updated>2020-02-13T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-13:/HCSU/blog/Seminar Topic-15.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-14T02:20:00+08:00</updated><entry><title>專題進度-16</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-16.html" rel="alternate"></link><published>2020-02-14T02:20:00+08:00</published><updated>2020-02-14T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-14:/HCSU/blog/Seminar Topic-16.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;零件 : 調整風扇草圖。&lt;/p&gt;
+&lt;p&gt;電控 : 測試步進馬達 ; 一片驅動器配一顆馬達共兩組 以及 一片驅動器配兩顆馬達接成串或並聯。&lt;/p&gt;
+&lt;p&gt;程式 : 研究arduino寫法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;電控 : &lt;/p&gt;
+&lt;p&gt;一片驅動器配一顆馬達共兩組 : 
+程式配合硬體做調整，程式部分會較硬體難寫。&lt;/p&gt;
+&lt;p&gt;一片驅動器配兩顆馬達 : &lt;/p&gt;
+&lt;p&gt;(1)串聯 : 晶片無燒壞風險但電壓不足且感抗升，若位置需要精準則最高轉速降低。&lt;/p&gt;
+&lt;p&gt;(2)並聯 : 感抗降低但電流不足，單顆速度不會改變但驅動器可能因電流調整過高而燒壞(~2A)的風險。&lt;/p&gt;
+&lt;p&gt;目前想到的解決方法就只有將負擔丟給程式方處理。 &lt;/p&gt;</summary><content type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;零件 : 調整風扇草圖。&lt;/p&gt;
+&lt;p&gt;電控 : 測試步進馬達 ; 一片驅動器配一顆馬達共兩組 以及 一片驅動器配兩顆馬達接成串或並聯。&lt;/p&gt;
+&lt;p&gt;程式 : 研究arduino寫法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;電控 : &lt;/p&gt;
+&lt;p&gt;一片驅動器配一顆馬達共兩組 : 
+程式配合硬體做調整，程式部分會較硬體難寫。&lt;/p&gt;
+&lt;p&gt;一片驅動器配兩顆馬達 : &lt;/p&gt;
+&lt;p&gt;(1)串聯 : 晶片無燒壞風險但電壓不足且感抗升，若位置需要精準則最高轉速降低。&lt;/p&gt;
+&lt;p&gt;(2)並聯 : 感抗降低但電流不足，單顆速度不會改變但驅動器可能因電流調整過高而燒壞(~2A)的風險。&lt;/p&gt;
+&lt;p&gt;目前想到的解決方法就只有將負擔丟給程式方處理。 &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-15</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-15.html" rel="alternate"></link><published>2020-02-13T03:50:00+08:00</published><updated>2020-02-13T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-13:/HCSU/blog/Seminar Topic-15.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;零件 : 更改浮球底座及風扇的設計。&lt;/p&gt;
 &lt;p&gt;程式 : 完成防守的程式學習。&lt;/p&gt;
 &lt;p&gt;球檯完成!! ((除了電控及線路&lt;/p&gt;
