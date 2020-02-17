@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-14T02:20:00+08:00</updated><entry><title>專題進度-16</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-16.html" rel="alternate"></link><published>2020-02-14T02:20:00+08:00</published><updated>2020-02-14T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-14:/HCSU/blog/Seminar Topic-16.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-17T02:20:00+08:00</updated><entry><title>專題進度-17</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-17.html" rel="alternate"></link><published>2020-02-17T02:20:00+08:00</published><updated>2020-02-17T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-17:/HCSU/blog/Seminar Topic-17.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
+&lt;p&gt;程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。&lt;/p&gt;
+&lt;p&gt;模型 : 球檯重新組合、整球檯的配線及浮球試配合。&lt;/p&gt;
+&lt;p&gt;手機介面 : 完成左側下拉式選單。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;影像辨識的攝影機選擇問題?? : 手機 ? Webcam??&lt;/p&gt;
+&lt;p&gt;手機介面 : 按鈕編寫困難。&lt;/p&gt;</summary><content type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
+&lt;p&gt;程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。&lt;/p&gt;
+&lt;p&gt;模型 : 球檯重新組合、整球檯的配線及浮球試配合。&lt;/p&gt;
+&lt;p&gt;手機介面 : 完成左側下拉式選單。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;影像辨識的攝影機選擇問題?? : 手機 ? Webcam??&lt;/p&gt;
+&lt;p&gt;手機介面 : 按鈕編寫困難。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-16</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-16.html" rel="alternate"></link><published>2020-02-14T02:20:00+08:00</published><updated>2020-02-14T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-14:/HCSU/blog/Seminar Topic-16.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;零件 : 調整風扇草圖。&lt;/p&gt;
 &lt;p&gt;電控 : 測試步進馬達 ; 一片驅動器配一顆馬達共兩組 以及 一片驅動器配兩顆馬達接成串或並聯。&lt;/p&gt;
 &lt;p&gt;程式 : 研究arduino寫法。&lt;/p&gt;
@@ -25,7 +41,7 @@
 &lt;p&gt;(2)並聯 : 感抗降低但電流不足，單顆速度不會改變但驅動器可能因電流調整過高而燒壞(~2A)的風險。&lt;/p&gt;
 &lt;p&gt;目前想到的解決方法就只有將負擔丟給程式方處理。 &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-15</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-15.html" rel="alternate"></link><published>2020-02-13T03:50:00+08:00</published><updated>2020-02-13T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-13:/HCSU/blog/Seminar Topic-15.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;零件 : 更改浮球底座及風扇的設計。&lt;/p&gt;
-&lt;p&gt;程式 : 完成防守的程式學習。&lt;/p&gt;
+&lt;p&gt;程式 : 完成防守的程式。&lt;/p&gt;
 &lt;p&gt;球檯完成!! ((除了電控及線路&lt;/p&gt;
 &lt;p&gt;手機介面研究 (不一定會使用)&lt;/p&gt;
 &lt;hr&gt;
@@ -33,7 +49,7 @@
 &lt;p&gt;模型 : 震動問題有點嚴重，正在尋找改善方法。&lt;/p&gt;
 &lt;p&gt;程式 : 雖然完成防守的程式，但隨之而來的是更多的問題 ，例如超前預測球的行徑路徑；思考控制程式的寫法及py傳位置數據的方法。&lt;/p&gt;</summary><content type="html">&lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;零件 : 更改浮球底座及風扇的設計。&lt;/p&gt;
-&lt;p&gt;程式 : 完成防守的程式學習。&lt;/p&gt;
+&lt;p&gt;程式 : 完成防守的程式。&lt;/p&gt;
 &lt;p&gt;球檯完成!! ((除了電控及線路&lt;/p&gt;
 &lt;p&gt;手機介面研究 (不一定會使用)&lt;/p&gt;
 &lt;hr&gt;

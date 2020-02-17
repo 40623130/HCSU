@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+      <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>專題研究日誌 - Archives</title>
+  <title>專題進度-17</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -18,6 +18,7 @@
 
   <!-- Feed -->
         <link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="專題研究日誌 Full Atom Feed" />
+          <link href="https://40623130.github.io/HCSU/blog/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="專題研究日誌 Categories Atom Feed" />
 
   <link href="https://40623130.github.io/HCSU/blog/theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -38,6 +39,52 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+
+    <link href="https://40623130.github.io/HCSU/blog/Seminar Topic-17.html" rel="canonical" />
+
+        <meta name="description" content="今日進度: 電控 : 浮球電路連接。 程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。 模型 : 球檯重新組合、整球檯的配線及浮球試配合。 手機介面 : 完成左側下拉式選單。 問題 :...">
+
+        <meta name="author" content="HCSU">
+
+        <meta name="tags" content="KMOL-專題">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="專題研究日誌"/>
+<meta property="og:title" content="專題進度-17"/>
+<meta property="og:description" content="今日進度: 電控 : 浮球電路連接。 程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。 模型 : 球檯重新組合、整球檯的配線及浮球試配合。 手機介面 : 完成左側下拉式選單。 問題 :..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://40623130.github.io/HCSU/blog/Seminar Topic-17.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-02-17 02:20:00+08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://40623130.github.io/HCSU/blog/author/hcsu.html">
+<meta property="article:section" content="Seminar Topic-Log"/>
+<meta property="article:tag" content="KMOL-專題"/>
+<meta property="og:image" content="https://40623130.github.io/HCSU/blog/theme/images/post-bg.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "專題進度-17",
+  "headline": "專題進度-17",
+  "datePublished": "2020-02-17 02:20:00+08:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "HCSU",
+    "url": "https://40623130.github.io/HCSU/blog/author/hcsu.html"
+  },
+  "image": "https://40623130.github.io/HCSU/blog/theme/images/post-bg.jpg",
+  "url": "https://40623130.github.io/HCSU/blog/Seminar Topic-17.html",
+  "description": "今日進度: 電控 : 浮球電路連接。 程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。 模型 : 球檯重新組合、整球檯的配線及浮球試配合。 手機介面 : 完成左側下拉式選單。 問題 :..."
+}
+</script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
@@ -133,9 +180,14 @@ init_mathjax();
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
@@ -145,7 +197,13 @@ init_mathjax();
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">專題研究日誌 - Archives</h1>
+        <h1 class="post-title">專題進度-17</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://40623130.github.io/HCSU/blog/author/hcsu.html">Hcsu</a>
+            | <time datetime="週一 17 二月 2020">週一 17 二月 2020</time>
+        </span>
+        <!-- TODO : Modified check -->
             <div class="post-cover cover" style="background-image: url('https://40623130.github.io/HCSU/blog/theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -159,48 +217,71 @@ init_mathjax();
     </form>
 </section>
 
-  <article class="post">
-    <div class="inner">
-      <dl>
-          <dt>週一 17 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-17.html">專題進度-17</a></dd>
-          <dt>週五 14 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-16.html">專題進度-16</a></dd>
-          <dt>週四 13 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-15.html">專題進度-15</a></dd>
-          <dt>週三 12 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-14.html">專題進度-14</a></dd>
-          <dt>週二 11 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-13.html">專題進度-13</a></dd>
-          <dt>週一 10 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-12.html">專題進度-12</a></dd>
-          <dt>週五 07 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-11.html">專題進度-11</a></dd>
-          <dt>週四 06 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-10.html">專題進度-10</a></dd>
-          <dt>週三 05 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-9.html">專題進度-9</a></dd>
-          <dt>週二 04 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-8.html">專題進度-8</a></dd>
-          <dt>週一 03 二月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-7.html">專題進度-7</a></dd>
-          <dt>週二 21 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-6.html">專題進度-6</a></dd>
-          <dt>週一 20 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-5.html">專題進度-5</a></dd>
-          <dt>週五 17 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-4.html">專題進度-4</a></dd>
-          <dt>週四 16 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-3.html">專題進度-3</a></dd>
-          <dt>週三 15 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-Meeting-1.html">專題開會-1</a></dd>
-          <dt>週二 14 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-2.html">專題進度-2</a></dd>
-          <dt>週一 13 一月 2020</dt>
-          <dd><a href="https://40623130.github.io/HCSU/blog/Seminar Topic-1.html">專題進度-1</a></dd>
-      </dl>
-    </div>
-  </article>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>今日進度:</p>
+<p>電控 : 浮球電路連接。</p>
+<p>程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。</p>
+<p>模型 : 球檯重新組合、整球檯的配線及浮球試配合。</p>
+<p>手機介面 : 完成左側下拉式選單。</p>
+<hr>
+<p>問題 : </p>
+<p>影像辨識的攝影機選擇問題?? : 手機 ? Webcam??</p>
+<p>手機介面 : 按鈕編寫困難。</p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=專題進度-17&amp;url=https://40623130.github.io/HCSU/blog/Seminar Topic-17.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://40623130.github.io/HCSU/blog/Seminar Topic-17.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://40623130.github.io/HCSU/blog/Seminar Topic-17.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://40623130.github.io/HCSU/blog/tag/kmol-zhuan-ti.html">KMOL-專題</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+                <script type="text/javascript">
+                    var disqus = 'kmolab-github';
+                    var disqus_shortname = 'kmolab-github';
+                    var disqus_identifier = '/Seminar Topic-17.html';
+                    var disqus_url = 'https://40623130.github.io/HCSU/blog/Seminar Topic-17.html';
+                </script>
+                <noscript>Please enable JavaScript to view the comments.</noscript>
+                <section class="post-comments">
+                        <a id="show-disqus" class="post-comments-activate" data-disqus-identifier="/Seminar Topic-17.html" >Show Comments</a>
+                    <div id="disqus_thread"></div>
+                </section>
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="https://40623130.github.io/HCSU/blog/Seminar Topic-16.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">專題進度-16</h2>
+                            <p class="post-nav-excerpt">今日進度: 零件 : 調整風扇草圖。 電控 : 測試步進馬達 ; 一片驅動器配一顆馬達共兩組 以及 一片驅動器配兩顆馬達接成串或並聯。 程式 : 研究arduino寫法。...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
