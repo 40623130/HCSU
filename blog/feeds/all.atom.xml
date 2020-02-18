@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-17T02:20:00+08:00</updated><entry><title>專題進度-17</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-17.html" rel="alternate"></link><published>2020-02-17T02:20:00+08:00</published><updated>2020-02-17T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-17:/HCSU/blog/Seminar Topic-17.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-18T02:20:00+08:00</updated><entry><title>專題進度-18</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-18.html" rel="alternate"></link><published>2020-02-18T02:20:00+08:00</published><updated>2020-02-18T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-18:/HCSU/blog/Seminar Topic-18.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
+&lt;p&gt;程式 : 處理視訊鏡頭。&lt;/p&gt;
+&lt;p&gt;模型 : 球檯保養。&lt;/p&gt;
+&lt;p&gt;手機介面 : 寫好+/-按鈕及該功能。&lt;/p&gt;
+&lt;hr&gt;</summary><content type="html">&lt;p&gt;今日進度:&lt;/p&gt;
+&lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
+&lt;p&gt;程式 : 處理視訊鏡頭。&lt;/p&gt;
+&lt;p&gt;模型 : 球檯保養。&lt;/p&gt;
+&lt;p&gt;手機介面 : 寫好+/-按鈕及該功能。&lt;/p&gt;
+&lt;hr&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-17</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-17.html" rel="alternate"></link><published>2020-02-17T02:20:00+08:00</published><updated>2020-02-17T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-17:/HCSU/blog/Seminar Topic-17.html</id><summary type="html">&lt;p&gt;今日進度:&lt;/p&gt;
 &lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
 &lt;p&gt;程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。&lt;/p&gt;
 &lt;p&gt;模型 : 球檯重新組合、整球檯的配線及浮球試配合。&lt;/p&gt;
