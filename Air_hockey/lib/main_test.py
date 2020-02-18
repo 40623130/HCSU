@@ -73,6 +73,8 @@ if __name__ == '__main__':
                     #Save the Ball Position
                     ball_positionX.append( ret_green[0])
                     ball_positionY.append( ret_green[1])
+                    player_red_X = ret_red[0]
+                    player_red_Y = ret_red[1]
                     #If getting enough data
                     # Rx_v  > 0 => the green is at the right of the Red
                     Rx = ret_green[0] - ret_red[0]
@@ -149,59 +151,38 @@ if __name__ == '__main__':
                                 else:
                                     m = (y2-y1)/(x2-x1)
                                     if Ball_DirectionY_Movement == 1: #Up
-                                        if Ball_DirectionY_Movement_last != 0 and Ball_DirectionY_Movement_last != Ball_DirectionY_Movement:
-                                            for i in range(len(ball_positionY)):
-                                                del ball_positionY[0]
-                                        elif y2 < 140: #ball is close Red_Player wall
-                                            y = wall_Y_min
-                                            x = (y - y2)/m + x2
-                                            if x < wall_X_min: #Ball is close Left wall
+                                        y = player_red_Y
+                                        x = (y - y2)/m + x2
+                                        if x > wall_X_min and x < wall_X_max:
+                                            cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                            print(x,y)
+                                        while x <= wall_X_min or x >= wall_X_max:
+                                            if x < wall_X_min:
                                                 x = wall_X_min
                                                 y = m*(x - x2) + y2
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                                 m = -m
                                                 y2 = y
                                                 x2 = x
-                                                y = y2 - 60
-                                                if y < wall_Y_min:
-                                                    y = wall_Y_min
+                                                y = player_red_Y
                                                 x = (y - y2)/m + x2
-                                                if x > wall_X_max:
-                                                    x = wall_X_max
-                                                    y = m*(x - x2) + y2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            elif x > wall_X_max: #Ball is close Right wall
+                                            elif x > wall_X_max:
                                                 x = wall_X_max
                                                 y = m*(x - x2) + y2
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
+                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                                 m = -m
                                                 y2 = y
                                                 x2 = x
-                                                y = y2 - 60
-                                                if y < wall_Y_min:
-                                                    y = wall_Y_min
+                                                y = player_red_Y
                                                 x = (y - y2)/m + x2
-                                                if x < wall_X_min:
-                                                    x = wall_X_min
-                                                    y = m*(x - x2) + y2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                             else:
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 + 60
+                                                y = player_red_Y
                                                 x = (y - y2)/m + x2
-                                                if x < wall_X_min:
-                                                    x = wall_X_min
-                                                    y = m*(x - x2) + y2
-                                                if x > wall_X_max:
-                                                    x = wall_X_max
-                                                    y = m*(x - x2) + y2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        else:
-                                            y = y2 - 100
-                                            x = (y - y2)/m + x2
+                                        '''
+                                        while y > wall_Y_min:
                                             if Ball_DirectionX_Movement_last != 0 and Ball_DirectionX_Movement != Ball_DirectionX_Movement_last:
                                                 for i in range(len(ball_positionX)):
                                                     del ball_positionX[0]
@@ -226,98 +207,19 @@ if __name__ == '__main__':
                                                 x = (y - y2)/m + x2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
                                             else:
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        Ball_DirectionY_Movement_last = Ball_DirectionY_Movement
-                                        Ball_DirectionX_Movement_last = Ball_DirectionX_Movement
-                                    if Ball_DirectionY_Movement == 2: #Down
-                                        if Ball_DirectionY_Movement_last != 0 and Ball_DirectionY_Movement_last != Ball_DirectionY_Movement:
-                                            for i in range(len(ball_positionY)):
-                                                del ball_positionY[0]
-                                        elif y2 > 320: #ball is close Red_Player wall
-                                            y = wall_Y_max
-                                            x = (y - y2)/m + x2
-                                            if x < wall_X_min: #Ball is close Left wall
-                                                x = wall_X_min
-                                                y = m*(x - x2) + y2
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 + 60
-                                                if y > wall_Y_max:
-                                                    y = wall_Y_max
-                                                x = (y - y2)/m + x2
-                                                if x > wall_X_max:
-                                                    x = wall_X_max
-                                                    y = m*(x - x2) + y2
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            elif x > wall_X_max: #Ball is close Right wall
-                                                x = wall_X_max
-                                                y = m*(x - x2) + y2
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 + 60
-                                                if y > wall_Y_max:
-                                                    y = wall_Y_max
-                                                x = (y - y2)/m + x2
-                                                if x < wall_X_min:
-                                                    x = wall_X_min
-                                                    y = m*(x - x2) + y2
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            else:
-                                                cv2.line( img2, (x2,y2), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 - 60
-                                                x = (y - y2)/m + x2
-                                                if x < wall_X_min:
-                                                    x = wall_X_min
-                                                    y = m*(x - x2) + y2
-                                                if x > wall_X_max:
-                                                    x = wall_X_max
-                                                    y = m*(x - x2) + y2
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        else:
-                                            y = y2 + 100
-                                            x = (y - y2)/m + x2
-                                            if Ball_DirectionX_Movement_last != 0 and Ball_DirectionX_Movement != Ball_DirectionX_Movement_last:
-                                                for i in range(len(ball_positionX)):
-                                                    del ball_positionX[0]
-                                            elif x < wall_X_min:
-                                                x = wall_X_min
-                                                y = m*(x - x2) + y2
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 + 60
+                                                y = wall_Y_min
                                                 x = (y - y2)/m + x2
                                                 cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            elif x > wall_X_max:
-                                                x = wall_X_max
-                                                y = m*(x - x2) + y2
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                                m = -m
-                                                y2 = y
-                                                x2 = x
-                                                y = y2 + 60
-                                                x = (y - y2)/m + x2
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                            else:
-                                                cv2.line( img2, ( int(x2),int(y2)), (int(x) , int(y)), (0x99,0xff,0x33), 2)
-                                        Ball_DirectionY_Movement_last = Ball_DirectionY_Movement
-                                        Ball_DirectionX_Movement_last = Ball_DirectionX_Movement
+                                        '''
                                     #Path Prediction end
                                     #AutoDefense Start
+                                    #'''
                                     if Ball_DirectionY_Movement == 1:
                                         player_red_positionX = ret_red[0]
                                         player_red_positionY = ret_red[1]
                                         y = player_red_positionY
                                         x = int((y-y2)/m+x2)
-                                        playerX_move_speed = (x - player_red_positionX)*-0.01
+                                        playerX_move_speed = (x - player_red_positionX)*-0.02
                                         if playerX_move_speed > 1:
                                             playerX_move_speed = 1
                                         elif playerX_move_speed < -1:
@@ -327,12 +229,13 @@ if __name__ == '__main__':
                                         print(ret_green[1])
                                     elif Ball_DirectionY_Movement == 2:
                                         player_red_positionX = ret_red[0]
-                                        playerX_move_speed = ((wall_X_min + wall_X_max)/2 - player_red_positionX)*-0.01
+                                        playerX_move_speed = ((wall_X_min + wall_X_max)/2 - player_red_positionX)*-0.02
                                         if playerX_move_speed > 1:
                                             playerX_move_speed = 1
                                         elif playerX_move_speed < -1:
                                             playerX_move_speed = -1
                                         speed(player_x_handle, playerX_move_speed)
+                                    #'''
                         #play_mode  3 end
                     #Use to Test
                     else:
