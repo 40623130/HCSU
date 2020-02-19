@@ -1,10 +1,10 @@
 import serial
-from time import sleep
+import time
 import sys
 
-COM_PORT = 'COM5'  # 請自行修改序列埠名稱
-BAUD_RATES = 9600
-ser = serial.Serial(COM_PORT, BAUD_RATES)
+COM = 'COM5'  # 請自行修改序列埠名稱
+BAUD = 9600
+ser = serial.Serial(COM, BAUD)
 
 try:
     while True:
@@ -14,11 +14,11 @@ try:
         if choice == '1':
             print('傳送開燈指令')
             ser.write(b'LED_ON\n')  # 訊息必須是位元組類型
-            sleep(0.5)              # 暫停0.5秒，再執行底下接收回應訊息的迴圈
+            time.sleep(0.5)              # 暫停0.5秒，再執行底下接收回應訊息的迴圈
         elif choice == '2':
             print('傳送關燈指令')
             ser.write(b'LED_OFF\n')
-            sleep(0.5)
+            time.sleep(0.5)
         elif choice == 'e':
             ser.close()
             print('再見！')
