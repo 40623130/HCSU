@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-19T05:20:00+08:00</updated><entry><title>專題進度-19</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-19.html" rel="alternate"></link><published>2020-02-19T05:20:00+08:00</published><updated>2020-02-19T05:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-19:/HCSU/blog/Seminar Topic-19.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數71天。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-21T04:20:00+08:00</updated><entry><title>專題進度-21</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-21.html" rel="alternate"></link><published>2020-02-21T04:20:00+08:00</published><updated>2020-02-21T04:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-21:/HCSU/blog/Seminar Topic-21.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數69天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 球檯電路整理。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;程式 : 1.Arduino中執行函式，觀察是否能斜向移動 ? 
+2.攻擊模式下的移動方式 ? 
+3.極限開關的腳 ? 
+4.是否需要規律性的回正兩顆Y軸馬達 ? 
+5.到達新位置後執行至最新新位置 ? 或該新位置的下一新座標 ? &lt;/p&gt;</summary><content type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數69天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 球檯電路整理。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;程式 : 1.Arduino中執行函式，觀察是否能斜向移動 ? 
+2.攻擊模式下的移動方式 ? 
+3.極限開關的腳 ? 
+4.是否需要規律性的回正兩顆Y軸馬達 ? 
+5.到達新位置後執行至最新新位置 ? 或該新位置的下一新座標 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-20</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-20.html" rel="alternate"></link><published>2020-02-20T05:10:00+08:00</published><updated>2020-02-20T05:10:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-20:/HCSU/blog/Seminar Topic-20.html</id><summary type="html">&lt;p&gt;假設5/1號專題發表 : 倒數70天。&lt;/p&gt;
+&lt;p&gt;今日討論 : 討論視訊鏡頭的架設方式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 修改浮球上蓋(軸加肋材)。&lt;/p&gt;
+&lt;p&gt;程式 : 用Flutter定位touch後的座標。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;程式 : Arduino接收Python字串後是否能設定成變數 ? 以及如何設定 ? &lt;/p&gt;</summary><content type="html">&lt;p&gt;假設5/1號專題發表 : 倒數70天。&lt;/p&gt;
+&lt;p&gt;今日討論 : 討論視訊鏡頭的架設方式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 修改浮球上蓋(軸加肋材)。&lt;/p&gt;
+&lt;p&gt;程式 : 用Flutter定位touch後的座標。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;程式 : Arduino接收Python字串後是否能設定成變數 ? 以及如何設定 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-19</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-19.html" rel="alternate"></link><published>2020-02-19T05:20:00+08:00</published><updated>2020-02-19T05:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-19:/HCSU/blog/Seminar Topic-19.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數71天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 浮球組合測試、修改風扇、接線改良。&lt;/p&gt;
 &lt;p&gt;電控 : 球檯電路連接、浮球接線改良。&lt;/p&gt;
