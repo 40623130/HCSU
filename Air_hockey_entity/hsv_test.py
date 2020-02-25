@@ -4,9 +4,9 @@ import array
 
 cap = cv2.VideoCapture(0)
 '''
-range = 10
-lower_blue = np.array([120-range,150,150])
-upper_blue = np.array([120+range,255,255])
+range = 5
+lower_blue = np.array([120-range,200,120])
+upper_blue = np.array([120+range,255,160])
 
 range = 10
 lower_green = np.array([60-range,100,100])
@@ -18,9 +18,9 @@ if __name__ == '__main__':
         ret, frame= cap.read()
         # Our operations on the frame come here
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-        range = 10
-        lower_color = np.array([60-range,100,100])
-        upper_color = np.array([60+range,255,255])
+        range = 5
+        lower_color = np.array([120-range,200,120])
+        upper_color = np.array([120+range,255,160])
         mask = cv2.inRange(hsv, lower_color, upper_color)
         # Display the resulting frame
         cv2.imshow('frame',mask)
