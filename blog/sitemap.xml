@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/</loc>
-<lastmod>2020-02-18T17:34:13-00:00</lastmod>
+<lastmod>2020-02-24T17:13:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/archives.html</loc>
-<lastmod>2020-02-18T17:34:13-00:00</lastmod>
+<lastmod>2020-02-24T17:13:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/tags.html</loc>
-<lastmod>2020-02-18T17:34:13-00:00</lastmod>
+<lastmod>2020-02-24T17:13:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/categories.html</loc>
-<lastmod>2020-02-18T17:34:13-00:00</lastmod>
+<lastmod>2020-02-24T17:13:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,8 +39,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://40623130.github.io/HCSU/blog/Seminar Topic-22.html</loc>
+<lastmod>2020-02-24T05:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://40623130.github.io/HCSU/blog/Seminar Topic-21.html</loc>
+<lastmod>2020-02-21T04:20:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://40623130.github.io/HCSU/blog/Seminar Topic-20.html</loc>
+<lastmod>2020-02-20T05:10:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://40623130.github.io/HCSU/blog/Seminar Topic-19.html</loc>
+<lastmod>2020-02-19T05:20:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://40623130.github.io/HCSU/blog/Seminar Topic-18.html</loc>
-<lastmod>2020-02-18T02:20:00+08:00</lastmod>
+<lastmod>2020-02-18T05:30:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -173,7 +201,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/category/seminar-topic-log.html</loc>
-<lastmod>2020-02-18T02:20:00+08:06</lastmod>
+<lastmod>2020-02-24T05:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -187,7 +215,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/tag/kmol-zhuan-ti.html</loc>
-<lastmod>2020-02-18T02:20:00+08:06</lastmod>
+<lastmod>2020-02-24T05:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -201,7 +229,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://40623130.github.io/HCSU/blog/author/hcsu.html</loc>
-<lastmod>2020-02-18T02:20:00+08:06</lastmod>
+<lastmod>2020-02-24T05:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
