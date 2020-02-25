@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-24T05:00:00+08:00</updated><entry><title>專題進度-22</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-22.html" rel="alternate"></link><published>2020-02-24T05:00:00+08:00</published><updated>2020-02-24T05:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-24:/HCSU/blog/Seminar Topic-22.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數66天。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-25T04:40:00+08:00</updated><entry><title>專題進度-23</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-23.html" rel="alternate"></link><published>2020-02-25T04:40:00+08:00</published><updated>2020-02-25T04:40:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-25:/HCSU/blog/Seminar Topic-23.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數65天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 球檯的視訊鏡頭固定架調整。&lt;/p&gt;
+&lt;p&gt;修復3DP : 部分口紅膠不適用於機台。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達測試)，辨識及測試電腦左右移動的判定，辨識球員移動的極限位置。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;電控 : 考慮使用一個軸兩個極限開關。&lt;/p&gt;
+&lt;p&gt;程式 : {辨識球員移動的極限位置}的好寫法。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數65天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 球檯的視訊鏡頭固定架調整。&lt;/p&gt;
+&lt;p&gt;修復3DP : 部分口紅膠不適用於機台。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達測試)，辨識及測試電腦左右移動的判定，辨識球員移動的極限位置。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;電控 : 考慮使用一個軸兩個極限開關。&lt;/p&gt;
+&lt;p&gt;程式 : {辨識球員移動的極限位置}的好寫法。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-22</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-22.html" rel="alternate"></link><published>2020-02-24T05:00:00+08:00</published><updated>2020-02-24T05:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-24:/HCSU/blog/Seminar Topic-22.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數66天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 浮球測試成功(現階段風扇會因馬達高轉速的問題而融化所以無法長時間轉動)，架設視訊鏡頭。&lt;/p&gt;
 &lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達)，調整顏色辨識的設定值。&lt;/p&gt;
