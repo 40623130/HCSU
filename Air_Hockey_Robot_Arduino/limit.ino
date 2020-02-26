@@ -3,6 +3,7 @@
 #define X_STP 2
 #define limitPin 9
 int stps = 2000;
+int state = 1;
 
 void setup() {
   Serial.begin(9600);
@@ -29,10 +30,32 @@ void step(boolean dir, byte dirPin, byte stepperPin, long int stps)
 }
 
 void loop() {
-  if (digitalRead(limitPin) == LOW){
-    Serial.println("LOW");
-    step(true, X_DIR, X_STP, stps);}
-  else if(digitalRead(limitPin) == HIGH){
-    Serial.println("HIGH");
+  if(digitalRead(limitPin) == LOW){
+    switch(state){
+      case 0:
+        Serial.println("LOW and state=0");
+        step(true, X_DIR, X_STP, stps);
+        break;
+      case 1:
+        Serial.println("LOW and state=1");
+        step(false, X_DIR, X_STP, stps);
+        break;
+      default:
+        Serial.println("LOW");
     }
+  }
+  else if(digitalRead(limitPin) == HIGH){
+    switch(state){
+      case 0:
+        Serial.println("HIGH and state=0");
+        state = 1;
+        break;
+      case 1:
+        Serial.println("HIGH and state=1");
+        state = 0;
+        break;
+      default:
+        Serial.println("HIGH");
+    }
+  }
 }

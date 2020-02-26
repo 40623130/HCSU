@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-25T04:40:00+08:00</updated><entry><title>專題進度-23</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-23.html" rel="alternate"></link><published>2020-02-25T04:40:00+08:00</published><updated>2020-02-25T04:40:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-25:/HCSU/blog/Seminar Topic-23.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數65天。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-26T04:00:00+08:00</updated><entry><title>專題進度-24</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-24.html" rel="alternate"></link><published>2020-02-26T04:00:00+08:00</published><updated>2020-02-26T04:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-26:/HCSU/blog/Seminar Topic-24.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數64天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 浮球正式版本v1完成(包含備用風扇)。&lt;/p&gt;
+&lt;p&gt;修復3DP : 熱敏電阻的接線及整線(大學長機型)。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達正逆轉)，。&lt;/p&gt;
+&lt;p&gt;電控 : 一個軸裝兩個極限開關並利用串聯相接。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;電控 : 極限開關有時會有跳動值?不是那麼穩定?。&lt;/p&gt;
+&lt;p&gt;程式 : arduino與python接收及輸出字串順序(架構)。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數64天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 浮球正式版本v1完成(包含備用風扇)。&lt;/p&gt;
+&lt;p&gt;修復3DP : 熱敏電阻的接線及整線(大學長機型)。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達正逆轉)，。&lt;/p&gt;
+&lt;p&gt;電控 : 一個軸裝兩個極限開關並利用串聯相接。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;電控 : 極限開關有時會有跳動值?不是那麼穩定?。&lt;/p&gt;
+&lt;p&gt;程式 : arduino與python接收及輸出字串順序(架構)。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-23</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-23.html" rel="alternate"></link><published>2020-02-25T04:40:00+08:00</published><updated>2020-02-25T04:40:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-25:/HCSU/blog/Seminar Topic-23.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數65天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 球檯的視訊鏡頭固定架調整。&lt;/p&gt;
 &lt;p&gt;修復3DP : 部分口紅膠不適用於機台。&lt;/p&gt;
