@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-26T04:00:00+08:00</updated><entry><title>專題進度-24</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-24.html" rel="alternate"></link><published>2020-02-26T04:00:00+08:00</published><updated>2020-02-26T04:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-26:/HCSU/blog/Seminar Topic-24.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數64天。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌 - Seminar Topic-Log</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/seminar-topic-log.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-27T14:20:00+08:00</updated><entry><title>專題進度-25</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-25.html" rel="alternate"></link><published>2020-02-27T14:20:00+08:00</published><updated>2020-02-27T14:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-27:/HCSU/blog/Seminar Topic-25.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數63天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;修復3DP : 保養(大學長機型)。&lt;/p&gt;
+&lt;p&gt;程式 : 利用arduino編譯完控制程式(待測試中)。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;修復3DP : 控制面板程式問題，加熱平台與噴頭的顯示疑似乎相反(大學長機型)。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數63天。&lt;/h2&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;修復3DP : 保養(大學長機型)。&lt;/p&gt;
+&lt;p&gt;程式 : 利用arduino編譯完控制程式(待測試中)。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;修復3DP : 控制面板程式問題，加熱平台與噴頭的顯示疑似乎相反(大學長機型)。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-24</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-24.html" rel="alternate"></link><published>2020-02-26T16:00:00+08:00</published><updated>2020-02-26T16:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-26:/HCSU/blog/Seminar Topic-24.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數64天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 浮球正式版本v1完成(包含備用風扇)。&lt;/p&gt;
 &lt;p&gt;修復3DP : 熱敏電阻的接線及整線(大學長機型)。&lt;/p&gt;
-&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達正逆轉)，。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達正逆轉)。&lt;/p&gt;
 &lt;p&gt;電控 : 一個軸裝兩個極限開關並利用串聯相接。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
@@ -12,12 +24,12 @@
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 浮球正式版本v1完成(包含備用風扇)。&lt;/p&gt;
 &lt;p&gt;修復3DP : 熱敏電阻的接線及整線(大學長機型)。&lt;/p&gt;
-&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達正逆轉)，。&lt;/p&gt;
+&lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達正逆轉)。&lt;/p&gt;
 &lt;p&gt;電控 : 一個軸裝兩個極限開關並利用串聯相接。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
 &lt;p&gt;電控 : 極限開關有時會有跳動值?不是那麼穩定?。&lt;/p&gt;
-&lt;p&gt;程式 : arduino與python接收及輸出字串順序(架構)。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-23</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-23.html" rel="alternate"></link><published>2020-02-25T04:40:00+08:00</published><updated>2020-02-25T04:40:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-25:/HCSU/blog/Seminar Topic-23.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數65天。&lt;/h2&gt;
+&lt;p&gt;程式 : arduino與python接收及輸出字串順序(架構)。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-23</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-23.html" rel="alternate"></link><published>2020-02-25T16:40:00+08:00</published><updated>2020-02-25T16:40:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-25:/HCSU/blog/Seminar Topic-23.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數65天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 球檯的視訊鏡頭固定架調整。&lt;/p&gt;
 &lt;p&gt;修復3DP : 部分口紅膠不適用於機台。&lt;/p&gt;
@@ -33,7 +45,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
 &lt;p&gt;電控 : 考慮使用一個軸兩個極限開關。&lt;/p&gt;
-&lt;p&gt;程式 : {辨識球員移動的極限位置}的好寫法。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-22</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-22.html" rel="alternate"></link><published>2020-02-24T05:00:00+08:00</published><updated>2020-02-24T05:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-24:/HCSU/blog/Seminar Topic-22.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數66天。&lt;/h2&gt;
+&lt;p&gt;程式 : {辨識球員移動的極限位置}的好寫法。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-22</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-22.html" rel="alternate"></link><published>2020-02-24T17:00:00+08:00</published><updated>2020-02-24T17:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-24:/HCSU/blog/Seminar Topic-22.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數66天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 浮球測試成功(現階段風扇會因馬達高轉速的問題而融化所以無法長時間轉動)，架設視訊鏡頭。&lt;/p&gt;
 &lt;p&gt;程式 : arduino寫法研究(極限開關控制馬達)，調整顏色辨識的設定值。&lt;/p&gt;
@@ -47,7 +59,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
 &lt;p&gt;電控 : 沒注意到電阻差點燒了一片A4988。&lt;/p&gt;
-&lt;p&gt;程式 : 視訊鏡頭因光影問題產生部分區塊無法辨識。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-21</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-21.html" rel="alternate"></link><published>2020-02-21T04:20:00+08:00</published><updated>2020-02-21T04:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-21:/HCSU/blog/Seminar Topic-21.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數69天。&lt;/h2&gt;
+&lt;p&gt;程式 : 視訊鏡頭因光影問題產生部分區塊無法辨識。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-21</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-21.html" rel="alternate"></link><published>2020-02-21T17:20:00+08:00</published><updated>2020-02-21T17:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-21:/HCSU/blog/Seminar Topic-21.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數69天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 球檯電路整理。&lt;/p&gt;
 &lt;p&gt;程式 : arduino寫法研究。&lt;/p&gt;
@@ -67,7 +79,7 @@
 2.攻擊模式下的移動方式 ? 
 3.極限開關的腳 ? 
 4.是否需要規律性的回正兩顆Y軸馬達 ? 
-5.到達新位置後執行至最新新位置 ? 或該新位置的下一新座標 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-20</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-20.html" rel="alternate"></link><published>2020-02-20T05:10:00+08:00</published><updated>2020-02-20T05:10:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-20:/HCSU/blog/Seminar Topic-20.html</id><summary type="html">&lt;p&gt;假設5/1號專題發表 : 倒數70天。&lt;/p&gt;
+5.到達新位置後執行至最新新位置 ? 或該新位置的下一新座標 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-20</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-20.html" rel="alternate"></link><published>2020-02-20T17:10:00+08:00</published><updated>2020-02-20T17:10:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-20:/HCSU/blog/Seminar Topic-20.html</id><summary type="html">&lt;p&gt;假設5/1號專題發表 : 倒數70天。&lt;/p&gt;
 &lt;p&gt;今日討論 : 討論視訊鏡頭的架設方式。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
@@ -83,7 +95,7 @@
 &lt;p&gt;程式 : 用Flutter定位touch後的座標。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
-&lt;p&gt;程式 : Arduino接收Python字串後是否能設定成變數 ? 以及如何設定 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-19</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-19.html" rel="alternate"></link><published>2020-02-19T05:20:00+08:00</published><updated>2020-02-19T05:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-19:/HCSU/blog/Seminar Topic-19.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數71天。&lt;/h2&gt;
+&lt;p&gt;程式 : Arduino接收Python字串後是否能設定成變數 ? 以及如何設定 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-19</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-19.html" rel="alternate"></link><published>2020-02-19T17:20:00+08:00</published><updated>2020-02-19T17:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-19:/HCSU/blog/Seminar Topic-19.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數71天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;模型 : 浮球組合測試、修改風扇、接線改良。&lt;/p&gt;
 &lt;p&gt;電控 : 球檯電路連接、浮球接線改良。&lt;/p&gt;
@@ -97,7 +109,7 @@
 &lt;p&gt;程式 : 利用python處理視訊鏡頭影像並輸出字串給arduino進行控制(測到藍色或綠色後各別亮燈)；於arduino中使用函式讓馬達同步執行(Y軸的兩顆馬達同時轉動而非分開執行)。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
-&lt;p&gt;模型 : 視訊鏡頭如何安裝於球檯 ?&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-18</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-18.html" rel="alternate"></link><published>2020-02-18T05:30:00+08:00</published><updated>2020-02-18T05:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-18:/HCSU/blog/Seminar Topic-18.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;模型 : 視訊鏡頭如何安裝於球檯 ?&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-18</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-18.html" rel="alternate"></link><published>2020-02-18T17:30:00+08:00</published><updated>2020-02-18T17:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-18:/HCSU/blog/Seminar Topic-18.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
 &lt;p&gt;程式 : 處理視訊鏡頭。&lt;/p&gt;
 &lt;p&gt;模型 : 球檯保養。&lt;/p&gt;
@@ -107,7 +119,7 @@
 &lt;p&gt;程式 : 處理視訊鏡頭。&lt;/p&gt;
 &lt;p&gt;模型 : 球檯保養。&lt;/p&gt;
 &lt;p&gt;手機介面 : 寫好+/-按鈕及該功能。&lt;/p&gt;
-&lt;hr&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-17</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-17.html" rel="alternate"></link><published>2020-02-17T02:20:00+08:00</published><updated>2020-02-17T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-17:/HCSU/blog/Seminar Topic-17.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;hr&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-17</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-17.html" rel="alternate"></link><published>2020-02-17T14:20:00+08:00</published><updated>2020-02-17T14:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-17:/HCSU/blog/Seminar Topic-17.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;電控 : 浮球電路連接。&lt;/p&gt;
 &lt;p&gt;程式 : 刪除電腦回擊中不必要的路徑預測，現在可以計算反射路徑至擊球點(可以多次反射左右牆)、研究arduino寫法。&lt;/p&gt;
 &lt;p&gt;模型 : 球檯重新組合、整球檯的配線及浮球試配合。&lt;/p&gt;
@@ -123,7 +135,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;影像辨識的攝影機選擇問題?? : 手機 ? Webcam??&lt;/p&gt;
-&lt;p&gt;手機介面 : 按鈕編寫困難。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-16</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-16.html" rel="alternate"></link><published>2020-02-14T02:20:00+08:00</published><updated>2020-02-14T02:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-14:/HCSU/blog/Seminar Topic-16.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;手機介面 : 按鈕編寫困難。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-16</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-16.html" rel="alternate"></link><published>2020-02-14T14:20:00+08:00</published><updated>2020-02-14T14:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-14:/HCSU/blog/Seminar Topic-16.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;零件 : 調整風扇草圖。&lt;/p&gt;
 &lt;p&gt;電控 : 測試步進馬達 ; 一片驅動器配一顆馬達共兩組 以及 一片驅動器配兩顆馬達接成串或並聯。&lt;/p&gt;
 &lt;p&gt;程式 : 研究arduino寫法。&lt;/p&gt;
@@ -147,7 +159,7 @@
 &lt;p&gt;一片驅動器配兩顆馬達 : &lt;/p&gt;
 &lt;p&gt;(1)串聯 : 晶片無燒壞風險但電壓不足且感抗升，若位置需要精準則最高轉速降低。&lt;/p&gt;
 &lt;p&gt;(2)並聯 : 感抗降低但電流不足，單顆速度不會改變但驅動器可能因電流調整過高而燒壞(~2A)的風險。&lt;/p&gt;
-&lt;p&gt;目前想到的解決方法就只有將負擔丟給程式方處理。 &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-15</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-15.html" rel="alternate"></link><published>2020-02-13T03:50:00+08:00</published><updated>2020-02-13T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-13:/HCSU/blog/Seminar Topic-15.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;目前想到的解決方法就只有將負擔丟給程式方處理。 &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-15</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-15.html" rel="alternate"></link><published>2020-02-13T15:50:00+08:00</published><updated>2020-02-13T15:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-13:/HCSU/blog/Seminar Topic-15.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;零件 : 更改浮球底座及風扇的設計。&lt;/p&gt;
 &lt;p&gt;程式 : 完成防守的程式。&lt;/p&gt;
 &lt;p&gt;球檯完成!! ((除了電控及線路&lt;/p&gt;
@@ -163,7 +175,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;模型 : 震動問題有點嚴重，正在尋找改善方法。&lt;/p&gt;
-&lt;p&gt;程式 : 雖然完成防守的程式，但隨之而來的是更多的問題 ，例如超前預測球的行徑路徑；思考控制程式的寫法及py傳位置數據的方法。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-14</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-14.html" rel="alternate"></link><published>2020-02-12T04:36:00+08:00</published><updated>2020-02-12T04:36:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-12:/HCSU/blog/Seminar Topic-14.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;程式 : 雖然完成防守的程式，但隨之而來的是更多的問題 ，例如超前預測球的行徑路徑；思考控制程式的寫法及py傳位置數據的方法。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-14</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-14.html" rel="alternate"></link><published>2020-02-12T16:36:00+08:00</published><updated>2020-02-12T16:36:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-12:/HCSU/blog/Seminar Topic-14.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;零件 : 安裝極限開關，更換球檯零件 ; 繪製完浮球。&lt;/p&gt;
 &lt;p&gt;程式 : 更改路徑預測程式寫法。&lt;/p&gt;
 &lt;hr&gt;
@@ -173,7 +185,7 @@
 &lt;p&gt;程式 : 更改路徑預測程式寫法。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
-&lt;p&gt;零件 : 浮球部分零件放不進球體內。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-13</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-13.html" rel="alternate"></link><published>2020-02-11T04:55:00+08:00</published><updated>2020-02-11T04:55:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-11:/HCSU/blog/Seminar Topic-13.html</id><summary type="html">&lt;p&gt;今天還是想試著將昨天畫好風扇用出來試試看，意外的可行，所以或許不需要買了。&lt;/p&gt;
+&lt;p&gt;零件 : 浮球部分零件放不進球體內。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-13</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-13.html" rel="alternate"></link><published>2020-02-11T16:55:00+08:00</published><updated>2020-02-11T16:55:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-11:/HCSU/blog/Seminar Topic-13.html</id><summary type="html">&lt;p&gt;今天還是想試著將昨天畫好風扇用出來試試看，意外的可行，所以或許不需要買了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;零件 : 皮帶座連接馬達，因長度不足所以更改X軸滑塊座上固定極限開關的部位，Y軸滑塊座的極限開關孔洞更改尺寸至公差範圍內 ; 繪製浮球座並更改風扇尺寸，放大了每片扇葉的厚度並減少數量以及將馬達軸的孔洞縮小。&lt;/p&gt;
@@ -191,7 +203,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;零件 : 震動平率過大以及皮帶水平問題 ; 716小型馬達轉速很快，風扇用印的會產生不小的震動。&lt;/p&gt;
-&lt;p&gt;程式 : 路徑部分，目前無法同時反射兩面牆。 &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-12</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-12.html" rel="alternate"></link><published>2020-02-10T05:05:00+08:00</published><updated>2020-02-10T05:05:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-10:/HCSU/blog/Seminar Topic-12.html</id><summary type="html">&lt;p&gt;今天進度不多但很衝擊...&lt;/p&gt;
+&lt;p&gt;程式 : 路徑部分，目前無法同時反射兩面牆。 &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-12</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-12.html" rel="alternate"></link><published>2020-02-10T17:05:00+08:00</published><updated>2020-02-10T17:05:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-10:/HCSU/blog/Seminar Topic-12.html</id><summary type="html">&lt;p&gt;今天進度不多但很衝擊...&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;零件 : 設計變更。&lt;/p&gt;
@@ -203,7 +215,7 @@
 &lt;p&gt;零件 : 設計變更。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
-&lt;p&gt;零件 : 風扇畫好了，但列印機無法列引出那樣的精細度...所以我們打算用買的了。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-11</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-11.html" rel="alternate"></link><published>2020-02-07T04:30:00+08:00</published><updated>2020-02-07T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-07:/HCSU/blog/Seminar Topic-11.html</id><summary type="html">&lt;p&gt;慵懶的一天&lt;/p&gt;
+&lt;p&gt;零件 : 風扇畫好了，但列印機無法列引出那樣的精細度...所以我們打算用買的了。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-11</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-11.html" rel="alternate"></link><published>2020-02-07T16:30:00+08:00</published><updated>2020-02-07T16:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-07:/HCSU/blog/Seminar Topic-11.html</id><summary type="html">&lt;p&gt;慵懶的一天&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;零件 : 修改皮帶座尺寸以及飄浮球的零件設計。&lt;/p&gt;
@@ -221,7 +233,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;零件 : 風扇頭有點難畫。&lt;/p&gt;
-&lt;p&gt;電控 : 昨天收到的 HR4988SQ 馬達驅動器調整電阻後震動及噪音皆介於可接受的範圍，持續觀察中。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-10</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-10.html" rel="alternate"></link><published>2020-02-06T05:00:00+08:00</published><updated>2020-02-06T05:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-06:/HCSU/blog/Seminar Topic-10.html</id><summary type="html">&lt;p&gt;今早有許多零件抵達，所以今天開始裝配模型，實際與理想有點出入，但不至於解決不了問題。&lt;/p&gt;
+&lt;p&gt;電控 : 昨天收到的 HR4988SQ 馬達驅動器調整電阻後震動及噪音皆介於可接受的範圍，持續觀察中。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-10</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-10.html" rel="alternate"></link><published>2020-02-06T17:00:00+08:00</published><updated>2020-02-06T17:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-06:/HCSU/blog/Seminar Topic-10.html</id><summary type="html">&lt;p&gt;今早有許多零件抵達，所以今天開始裝配模型，實際與理想有點出入，但不至於解決不了問題。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;影像辨識 : 視訊鏡頭的影像處理。&lt;/p&gt;
@@ -245,7 +257,7 @@
 &lt;p&gt;影像辨識 : 雜訊有點多。&lt;/p&gt;
 &lt;p&gt;電 : 步進馬達速度不太快，實際安裝後運行的結果也不太理想卻又意料之中。&lt;/p&gt;
 &lt;p&gt;零件 : 網購A4988ET 馬達驅動器卻收到HR4988SQ，兩者有波長不同的問題，據說後者的震動與噪音較前者大，但沒有A4988ET所以不確定誰的震動與噪音好...已回報該店家。&lt;/p&gt;
-&lt;p&gt;模型 : 實際安裝時皮帶高度不一樣 ( 已解決 : 修改零件尺寸)。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-9</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-9.html" rel="alternate"></link><published>2020-02-05T04:30:00+08:00</published><updated>2020-02-05T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-05:/HCSU/blog/Seminar Topic-9.html</id><summary type="html">&lt;p&gt;3月2號開學。&lt;/p&gt;
+&lt;p&gt;模型 : 實際安裝時皮帶高度不一樣 ( 已解決 : 修改零件尺寸)。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-9</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-9.html" rel="alternate"></link><published>2020-02-05T16:30:00+08:00</published><updated>2020-02-05T16:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-05:/HCSU/blog/Seminar Topic-9.html</id><summary type="html">&lt;p&gt;3月2號開學。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;影像辨識 : 編輯網站。&lt;/p&gt;
@@ -267,7 +279,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;電 : 極限開關安裝的位置與之後接線的問題。&lt;/p&gt;
-&lt;p&gt;大台的3DP修復 : 剩下進料問題。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-8</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-8.html" rel="alternate"></link><published>2020-02-04T04:30:00+08:00</published><updated>2020-02-04T04:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-04:/HCSU/blog/Seminar Topic-8.html</id><summary type="html">&lt;p&gt;不知道這篇新聞的可信度，反正肯定會延期，我想一旦延後整個行政作業都會亂掉吧 ? 且不知虎科是否會不補完那兩周的課程，聽說若不補完該校需要寫報告。
+&lt;p&gt;大台的3DP修復 : 剩下進料問題。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-8</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-8.html" rel="alternate"></link><published>2020-02-04T16:30:00+08:00</published><updated>2020-02-04T16:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-04:/HCSU/blog/Seminar Topic-8.html</id><summary type="html">&lt;p&gt;不知道這篇新聞的可信度，反正肯定會延期，我想一旦延後整個行政作業都會亂掉吧 ? 且不知虎科是否會不補完那兩周的課程，聽說若不補完該校需要寫報告。
 &lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3056972"&gt;News&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;這也導致了一個問題 : 專題發表時間是否會延後或是一樣??&lt;/p&gt;
 &lt;hr&gt;
@@ -293,7 +305,7 @@
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;電 : 考慮該使用接近開關還是極限開關，以及安裝的位置與之後接線的問題。&lt;/p&gt;
 &lt;p&gt;零件 : 買的一個類冰球的飄浮玩具，打算自己製作一個。&lt;/p&gt;
-&lt;p&gt;大台的3DP修復 : Y軸極限開關無法回饋、X軸不規則的間歇性無反應、無法原點賦歸。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-7</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-7.html" rel="alternate"></link><published>2020-02-03T03:00:00+08:00</published><updated>2020-02-03T03:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-03:/HCSU/blog/Seminar Topic-7.html</id><summary type="html">&lt;p&gt;年假結束...&lt;/p&gt;
+&lt;p&gt;大台的3DP修復 : Y軸極限開關無法回饋、X軸不規則的間歇性無反應、無法原點賦歸。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-7</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-7.html" rel="alternate"></link><published>2020-02-03T15:00:00+08:00</published><updated>2020-02-03T15:00:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-03:/HCSU/blog/Seminar Topic-7.html</id><summary type="html">&lt;p&gt;年假結束...&lt;/p&gt;
 &lt;p&gt;開始關切學校是否會因武漢肺炎影響而延後開學。
 &lt;a href="https://news.ltn.com.tw/news/life/breakingnews/3054365"&gt;News&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;看新聞上寫預計今天2 : 30各校於教育部開會是否延後開學。&lt;/p&gt;
@@ -319,7 +331,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;CoppeliaSim : 暫時沒有想法來編寫球體反彈的預測路徑。&lt;/p&gt;
-&lt;p&gt;Server : 出現技術上問題，目前暫時停滯該項目。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-6</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-6.html" rel="alternate"></link><published>2020-01-21T03:50:00+08:00</published><updated>2020-01-21T03:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-21:/HCSU/blog/Seminar Topic-6.html</id><summary type="html">&lt;p&gt;今天過後開始休過年到2月3號繼續專題。&lt;/p&gt;
+&lt;p&gt;Server : 出現技術上問題，目前暫時停滯該項目。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-6</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-6.html" rel="alternate"></link><published>2020-01-21T15:50:00+08:00</published><updated>2020-01-21T15:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-21:/HCSU/blog/Seminar Topic-6.html</id><summary type="html">&lt;p&gt;今天過後開始休過年到2月3號繼續專題。&lt;/p&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;影像辨識 : 利用Lua編寫鍵盤控制(Blue)，能於V-rep內與電腦對打。&lt;/p&gt;
 &lt;p&gt;大台的3DP修復 : 線路處理。&lt;/p&gt;
@@ -337,7 +349,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;採購 : 正在考慮使用何種控制板及配電相關問題。&lt;/p&gt;
-&lt;p&gt;Server : 可攜版本出現很多問題...例如 : 架設完成後重新開機又不能使用或VB抓不到com找不到能用的cpu之類的。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-5</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-5.html" rel="alternate"></link><published>2020-01-20T05:50:00+08:00</published><updated>2020-01-20T05:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-20:/HCSU/blog/Seminar Topic-5.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;Server : 可攜版本出現很多問題...例如 : 架設完成後重新開機又不能使用或VB抓不到com找不到能用的cpu之類的。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-5</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-5.html" rel="alternate"></link><published>2020-01-20T01:50:00+08:00</published><updated>2020-01-20T01:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-20:/HCSU/blog/Seminar Topic-5.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;影像辨識 : 利用Python完成防守的code。&lt;/p&gt;
 &lt;p&gt;修復3DP : {Boom}更換噴頭，校正平台。&lt;/p&gt;
 &lt;p&gt;大台的3DP修復 : 線路處理、及更換熱敏電阻。&lt;/p&gt;
@@ -355,7 +367,7 @@
 &lt;hr&gt;
 &lt;p&gt;問題 : &lt;/p&gt;
 &lt;p&gt;V-rep模型:有不知原因的碰撞反應。&lt;/p&gt;
-&lt;p&gt;採購 : 正在考慮使用何種控制板及配電相關問題。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-4</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-4.html" rel="alternate"></link><published>2020-01-17T03:54:00+08:00</published><updated>2020-01-17T03:54:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-17:/HCSU/blog/Seminar Topic-4.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;採購 : 正在考慮使用何種控制板及配電相關問題。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-4</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-4.html" rel="alternate"></link><published>2020-01-17T15:54:00+08:00</published><updated>2020-01-17T15:54:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-17:/HCSU/blog/Seminar Topic-4.html</id><summary type="html">&lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;Vrep簡化版模型初步設定完成，鍵盤設置完成，影像處理正在嘗試中。&lt;/p&gt;
 &lt;p&gt;模型部分 : 傳動方式確定是利用步進馬達帶動皮帶並移動裝置於光軸上的馬達座，進行前後的移動，而馬達座上的馬達則進行左右移動，目前正討論是否改成可拆式或模組化之類的。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/604db172fe0b6a8e4523ff06/w/42b40006487ea43eacf29cee/e/1853a9b3ff145cc04d0f8398"&gt;OnShape&lt;/a&gt; : 馬達皮帶座第1版已設計好。目前討論大概需購買的有:光軸、惰倫、球、步進馬達、皮帶、馬達座、光軸座及套筒、極限開關、風扇、散熱片。&lt;/p&gt;
@@ -363,13 +375,13 @@
 &lt;p&gt;Vrep簡化版模型初步設定完成，鍵盤設置完成，影像處理正在嘗試中。&lt;/p&gt;
 &lt;p&gt;模型部分 : 傳動方式確定是利用步進馬達帶動皮帶並移動裝置於光軸上的馬達座，進行前後的移動，而馬達座上的馬達則進行左右移動，目前正討論是否改成可拆式或模組化之類的。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/604db172fe0b6a8e4523ff06/w/42b40006487ea43eacf29cee/e/1853a9b3ff145cc04d0f8398"&gt;OnShape&lt;/a&gt; : 馬達皮帶座第1版已設計好。目前討論大概需購買的有:光軸、惰倫、球、步進馬達、皮帶、馬達座、光軸座及套筒、極限開關、風扇、散熱片。&lt;/p&gt;
-&lt;p&gt;虛擬伺服器 : 正在嘗試架設中，因隨身碟的系統檔最大只能有4G而設定中的大小為10G所以以分割的方式設置於隨身系統中，安裝Ubuntu系統時發生第一次崩潰...努力處理中。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-3</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-3.html" rel="alternate"></link><published>2020-01-16T04:50:00+08:00</published><updated>2020-01-16T04:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-16:/HCSU/blog/Seminar Topic-3.html</id><summary type="html">&lt;p&gt;今天早上被要求打掃了實驗室。&lt;/p&gt;
+&lt;p&gt;虛擬伺服器 : 正在嘗試架設中，因隨身碟的系統檔最大只能有4G而設定中的大小為10G所以以分割的方式設置於隨身系統中，安裝Ubuntu系統時發生第一次崩潰...努力處理中。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-3</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-3.html" rel="alternate"></link><published>2020-01-16T16:50:00+08:00</published><updated>2020-01-16T16:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-16:/HCSU/blog/Seminar Topic-3.html</id><summary type="html">&lt;p&gt;今天早上被要求打掃了實驗室。&lt;/p&gt;
 &lt;p&gt;下午專題 : &lt;/p&gt;
 &lt;p&gt;討論了一下模型組裝零件的採購，目前正在煩惱...。&lt;/p&gt;
 &lt;p&gt;導入了簡易版的模型進CoppeliaSim，但因為改版的問題對外聯Python發現code的名稱都改了。&lt;/p&gt;</summary><content type="html">&lt;p&gt;今天早上被要求打掃了實驗室。&lt;/p&gt;
 &lt;p&gt;下午專題 : &lt;/p&gt;
 &lt;p&gt;討論了一下模型組裝零件的採購，目前正在煩惱...。&lt;/p&gt;
-&lt;p&gt;導入了簡易版的模型進CoppeliaSim，但因為改版的問題對外聯Python發現code的名稱都改了。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-2</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-2.html" rel="alternate"></link><published>2020-01-14T04:50:00+08:00</published><updated>2020-01-14T04:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-14:/HCSU/blog/Seminar Topic-2.html</id><summary type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
+&lt;p&gt;導入了簡易版的模型進CoppeliaSim，但因為改版的問題對外聯Python發現code的名稱都改了。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-2</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-2.html" rel="alternate"></link><published>2020-01-14T16:50:00+08:00</published><updated>2020-01-14T16:50:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-14:/HCSU/blog/Seminar Topic-2.html</id><summary type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
 進度:
 找出大型3D列印機的問題並修復&lt;/p&gt;
 &lt;p&gt;CoppeliaSim模擬器
@@ -389,7 +401,7 @@ UI介面設定及研究如何編入程式中&lt;/p&gt;
 進度 :
 電梯及手足球球檯簡易版設計中。&lt;/p&gt;
 &lt;p&gt;這邊寫簡易版設計，主要原因出於想展示的是並非機構設計的多複雜而是虛實整合的概念。&lt;/p&gt;
-&lt;p&gt;電梯的部分就出了很多機構的問題，像是開關門、平衡或是制動等等...&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-1</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-1.html" rel="alternate"></link><published>2020-01-13T05:30:00+08:00</published><updated>2020-01-13T05:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-13:/HCSU/blog/Seminar Topic-1.html</id><summary type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
+&lt;p&gt;電梯的部分就出了很多機構的問題，像是開關門、平衡或是制動等等...&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-1</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-1.html" rel="alternate"></link><published>2020-01-13T17:30:00+08:00</published><updated>2020-01-13T17:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-01-13:/HCSU/blog/Seminar Topic-1.html</id><summary type="html">&lt;p&gt;大3D列印機使用手冊、修復六台列印機
 進度:
 線材&amp;amp;鋁擠型:規格or材質
 購買管道&lt;/p&gt;
