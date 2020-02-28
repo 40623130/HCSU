@@ -17,12 +17,12 @@ void limit() {
     switch(X_state){
       case 0:
         Serial.println("HIGH and X_state=0");
-        //step(false, X_DIR, X_STP, limit_stps);
+        step(false, X_DIR, X_STP, limit_stps);
         X_state = 1;
         break;
       case 1:
         Serial.println("HIGH and X_state=1");
-        //step(true, X_DIR, X_STP, limit_stps);
+        step(true, X_DIR, X_STP, limit_stps);
         X_state = 0;
         break;
       default:
@@ -47,12 +47,12 @@ void limit() {
     switch(Y_state){
       case 0:
         Serial.println("HIGH and Y_state=0");
-        //YYY_limit_step_false();
+        YYY_limit_step_false();
         Y_state = 1;
         break;
       case 1:
         Serial.println("HIGH and Y_state=1");
-        //YYY_limit_step_true();
+        YYY_limit_step_true();
         Y_state = 0;
         break;
       default:

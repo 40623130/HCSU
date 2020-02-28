@@ -34,5 +34,21 @@ void loop() {
       step(false, X_DIR, X_STP, stps);
       Serial.println("Back");
     }
+    if (str == "Diagonally_left_down"){
+      Diagonally_left_down();
+      Serial.println("Diagonally_left_down");
+    } 
+    else if (str == "Diagonally_right_down"){
+      Diagonally_right_down();
+      Serial.println("Diagonally_right_down");
+    }
+    else if (str == "Diagonally_left_up"){
+      Diagonally_left_up();
+      Serial.println("Diagonally_left_up");
+    } 
+    else if (str == "Diagonally_right_up"){
+      Diagonally_right_up();
+      Serial.println("Diagonally_right_up");
+    }
   }
 }

@@ -27,6 +27,21 @@ void YYY_limit_step_false(){
 void YYY_limit_step_true(){
   step(true, YY_DIR, YY_STP, limit_stps);
   step(true, Y_DIR, Y_STP, limit_stps);
-} 
-
+}
+void Diagonally_left_up(){
+  step(true, X_DIR, X_STP, stps);
+  YYY_limit_step_false();
+}
+void Diagonally_left_down(){
+  step(false, X_DIR, X_STP, stps);
+  YYY_limit_step_false();
+}
+void Diagonally_right_up(){
+  step(true, X_DIR, X_STP, stps);
+  YYY_limit_step_true();
+}
+void Diagonally_right_down(){
+  step(false, X_DIR, X_STP, stps);
+  YYY_limit_step_true();
+}
         
