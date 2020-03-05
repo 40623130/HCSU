@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-02-27T14:20:00+08:00</updated><entry><title>專題進度-25</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-25.html" rel="alternate"></link><published>2020-02-27T14:20:00+08:00</published><updated>2020-02-27T14:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-27:/HCSU/blog/Seminar Topic-25.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數63天。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-03-05T19:30:00+08:00</updated><entry><title>專題開會-2</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-Meeting-2.html" rel="alternate"></link><published>2020-03-05T19:30:00+08:00</published><updated>2020-03-05T19:30:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-03-05:/HCSU/blog/Seminar Topic-Meeting-2.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數56天。&lt;/h2&gt;
+&lt;p&gt;今天開學後第一次開會，整體來說得到評價還不錯。&lt;/p&gt;
+&lt;p&gt;聽老師建議之後可以發展的方向 : &lt;/p&gt;
+&lt;p&gt;(1) : 平台校正。&lt;/p&gt;
+&lt;p&gt;(2) : 跑的路徑。&lt;/p&gt;
+&lt;p&gt;(3) : 大數據(是否可用訓練)。&lt;/p&gt;
+&lt;p&gt;(4) : 馬達機減速。&lt;/p&gt;
+&lt;p&gt;(5) : 攝像頭振動及位置。&lt;/p&gt;
+&lt;p&gt;(6) : 虛實整合(不一定要實體)。&lt;/p&gt;
+&lt;p&gt;(7) : 球體的改善(充電or自走or流力分析??)&lt;/p&gt;
+&lt;p&gt;(8) : 報告(3D列印-維修流程等)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;程式 : 修改arduino編譯完的控制程式。&lt;/p&gt;
+&lt;p&gt;電控 : 測試電壓原以及風扇。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;電控 : 測試馬達的電壓問題以及A4988過熱問題。&lt;/p&gt;
+&lt;p&gt;程式 : arduino主控程式的加減速 ? &lt;/p&gt;</summary><content type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數56天。&lt;/h2&gt;
+&lt;p&gt;今天開學後第一次開會，整體來說得到評價還不錯。&lt;/p&gt;
+&lt;p&gt;聽老師建議之後可以發展的方向 : &lt;/p&gt;
+&lt;p&gt;(1) : 平台校正。&lt;/p&gt;
+&lt;p&gt;(2) : 跑的路徑。&lt;/p&gt;
+&lt;p&gt;(3) : 大數據(是否可用訓練)。&lt;/p&gt;
+&lt;p&gt;(4) : 馬達機減速。&lt;/p&gt;
+&lt;p&gt;(5) : 攝像頭振動及位置。&lt;/p&gt;
+&lt;p&gt;(6) : 虛實整合(不一定要實體)。&lt;/p&gt;
+&lt;p&gt;(7) : 球體的改善(充電or自走or流力分析??)&lt;/p&gt;
+&lt;p&gt;(8) : 報告(3D列印-維修流程等)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今日進度 :&lt;/p&gt;
+&lt;p&gt;程式 : 修改arduino編譯完的控制程式。&lt;/p&gt;
+&lt;p&gt;電控 : 測試電壓原以及風扇。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 :&lt;/p&gt;
+&lt;p&gt;電控 : 測試馬達的電壓問題以及A4988過熱問題。&lt;/p&gt;
+&lt;p&gt;程式 : arduino主控程式的加減速 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-25</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-25.html" rel="alternate"></link><published>2020-02-27T14:20:00+08:00</published><updated>2020-02-27T14:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-27:/HCSU/blog/Seminar Topic-25.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數63天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;修復3DP : 保養(大學長機型)。&lt;/p&gt;
 &lt;p&gt;程式 : 利用arduino編譯完控制程式(待測試中)。&lt;/p&gt;
@@ -79,7 +115,7 @@
 2.攻擊模式下的移動方式 ? 
 3.極限開關的腳 ? 
 4.是否需要規律性的回正兩顆Y軸馬達 ? 
-5.到達新位置後執行至最新新位置 ? 或該新位置的下一新座標 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-20</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-20.html" rel="alternate"></link><published>2020-02-20T17:10:00+08:00</published><updated>2020-02-20T17:10:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-20:/HCSU/blog/Seminar Topic-20.html</id><summary type="html">&lt;p&gt;假設5/1號專題發表 : 倒數70天。&lt;/p&gt;
+5.到達新位置後執行至最新新位置 ? 或該新位置的下一新座標 ? &lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題進度-20</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-20.html" rel="alternate"></link><published>2020-02-20T17:10:00+08:00</published><updated>2020-02-20T17:10:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-02-20:/HCSU/blog/Seminar Topic-20.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數70天。&lt;/h2&gt;
 &lt;p&gt;今日討論 : 討論視訊鏡頭的架設方式。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
@@ -87,7 +123,7 @@
 &lt;p&gt;程式 : 用Flutter定位touch後的座標。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;問題 :&lt;/p&gt;
-&lt;p&gt;程式 : Arduino接收Python字串後是否能設定成變數 ? 以及如何設定 ? &lt;/p&gt;</summary><content type="html">&lt;p&gt;假設5/1號專題發表 : 倒數70天。&lt;/p&gt;
+&lt;p&gt;程式 : Arduino接收Python字串後是否能設定成變數 ? 以及如何設定 ? &lt;/p&gt;</summary><content type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數70天。&lt;/h2&gt;
 &lt;p&gt;今日討論 : 討論視訊鏡頭的架設方式。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;

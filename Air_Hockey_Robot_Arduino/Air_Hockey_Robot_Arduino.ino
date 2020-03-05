@@ -18,17 +18,17 @@ void loop() {
   if (Serial.available()){
     str = Serial.readStringUntil('\n');
     limit();
-    if (str == "Right"){
-      YYY_step_true();
-      Serial.println("Right");
-    }
-    else if (str == "LEFT"){
-      YYY_step_false();
-      Serial.println("LEFT");
-    }
     if (str == "Push"){
-      step(true, X_DIR, X_STP, stps);
+      YYY_step_true();
       Serial.println("Push");
+    }
+    else if (str == "Back"){
+      YYY_step_false();
+      Serial.println("Back");
+    }
+    if (str == "Right"){
+      step(true, X_DIR, X_STP, stps);
+      Serial.println("Right");
     } 
     else if (str == "Back"){
       step(false, X_DIR, X_STP, stps);

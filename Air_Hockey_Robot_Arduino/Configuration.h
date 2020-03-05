@@ -10,6 +10,5 @@
 
 int X_state = 1;
 int Y_state = 1;
-int stps = 2000;
-int limit_stps = 100;
+int stps = 10;
 String str;
