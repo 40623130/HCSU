@@ -15,15 +15,18 @@ void setup() {
 }
 
 void loop() {
+}
+/*
+void loop() {
   if (Serial.available()){
     str = Serial.readStringUntil('\n');
     limit();
     if (str == "Push"){
-      YYY_step_true();
+      Y_step_true();
       Serial.println("Push");
     }
     else if (str == "Back"){
-      YYY_step_false();
+      Y_step_false();
       Serial.println("Back");
     }
     if (str == "Right"){
@@ -52,3 +55,4 @@ void loop() {
     }
   }
 }
+*/

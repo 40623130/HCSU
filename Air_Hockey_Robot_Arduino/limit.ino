@@ -1,3 +1,4 @@
+/*
 void limit() {
   if(digitalRead(X_LIMIT) == LOW){
     switch(X_state){
@@ -60,3 +61,4 @@ void limit() {
     }
   }
 }
+*/
