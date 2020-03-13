@@ -15,44 +15,11 @@ void setup() {
 }
 
 void loop() {
-}
-/*
-void loop() {
   if (Serial.available()){
     str = Serial.readStringUntil('\n');
-    limit();
     if (str == "Push"){
       Y_step_true();
       Serial.println("Push");
     }
-    else if (str == "Back"){
-      Y_step_false();
-      Serial.println("Back");
-    }
-    if (str == "Right"){
-      step(true, X_DIR, X_STP, stps);
-      Serial.println("Right");
-    } 
-    else if (str == "Back"){
-      step(false, X_DIR, X_STP, stps);
-      Serial.println("Back");
-    }
-    if (str == "Diagonally_left_down"){
-      Diagonally_left_down();
-      Serial.println("Diagonally_left_down");
-    } 
-    else if (str == "Diagonally_right_down"){
-      Diagonally_right_down();
-      Serial.println("Diagonally_right_down");
-    }
-    else if (str == "Diagonally_left_up"){
-      Diagonally_left_up();
-      Serial.println("Diagonally_left_up");
-    } 
-    else if (str == "Diagonally_right_up"){
-      Diagonally_right_up();
-      Serial.println("Diagonally_right_up");
-    }
   }
 }
-*/

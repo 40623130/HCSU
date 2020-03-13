@@ -10,5 +10,6 @@
 
 int X_state = 1;
 int Y_state = 1;
-int stps = 10;
+int stps = 1000;
+word Micro;
 String str;
