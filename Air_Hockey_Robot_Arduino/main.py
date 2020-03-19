@@ -11,11 +11,11 @@ gamemode
 2 = play
 '''
 gamemode = 2
-arduino_connect = 0
+arduino_connect = 1
 Path_Prediction = 0
 if arduino_connect == 1:
-    COM_PORT = 'COM5'  # 請自行修改序列埠名稱
-    BAUD_RATES = 9600
+    COM_PORT = 'COM8'  # 請自行修改序列埠名稱
+    BAUD_RATES = 115200
     ser = serial.Serial(COM_PORT, BAUD_RATES)
     
 max_x = None
@@ -94,12 +94,12 @@ if __name__ == '__main__':
             if ret_red and ret_blue:
                 if blue_x < red_x:
                     if arduino_connect == 1:
-                        ser.write(b'RIGHT_ON\n')
-                        ser.write(b'LEFT_OFF\n')
+                        ser.write(b'RIGHT\n')
+                        print('right')
                 elif blue_x > red_x:
                     if arduino_connect == 1:
-                        ser.write(b'LEFT_ON\n')
-                        ser.write(b'RIGHT_OFF\n')
+                        ser.write(b'LEFT\n')
+                        print('left')
                 else:
                     if arduino_connect == 1:
                         ser.write(b'RIGHT_OFF\n')

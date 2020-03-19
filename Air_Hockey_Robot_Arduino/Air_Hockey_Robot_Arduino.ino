@@ -18,11 +18,13 @@ void loop() {
   limit();
   if (Serial.available()){
     str = Serial.readStringUntil('\n');
-    if (str == "Right"){
-      X_acc(false);
+    if (str == "RIGHT"){
+      X_run(true);
+      Serial.println("RIGHT");
     }
-    else if(str == "Left"){
-      X_acc(true);
+    else if(str == "LEFT"){
+      X_run(false);
+      Serial.println("LEFT");
     }
   }
 }
