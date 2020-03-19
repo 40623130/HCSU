@@ -1,17 +1,17 @@
 void X_run(boolean dir){
   switch(X_state){
     case 0:
-      for (word i = 540;i > 120;i--){
-        X_acc(i,dir,10);
-        if (i == 121){
-          X_state = 1;
+      for (word i = 500;i > 490;i--){
+        X_acc(600,dir,10);
+        if (i == 491){
+          X_state = 0;
         }
       }
       break;
     case 1:
       do {
         X_acc(130,dir,60);
-      }while(str != "Closer");
+      }while(digitalRead(X_LIMIT) == LOW);
       for (word i = 130;i < 190;i++){
         X_acc(i,dir,5);
         if (i == 199){
@@ -21,7 +21,7 @@ void X_run(boolean dir){
       break;
     case 2:
       for (word i = 190;i < 430;i++){
-        X_acc(i,dir,5);
+        X_acc(i,dir,1);
       }
       X_state = 3;
     default:
@@ -30,7 +30,7 @@ void X_run(boolean dir){
 }
 
 /*
-void Y_acc(boolean dir){
+void Y_run(boolean dir){
   switch(Y_state){
     case 0:
       for (word i = 540;i > 120;i--){
