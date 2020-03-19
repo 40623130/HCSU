@@ -1,11 +1,13 @@
 /*
-M-maxspeed:120?
+M-maxspeed:130?
 N-maxspeed:450
 minspeed:3200
 Turns:14 approximately
+約600步/圈=>40mm
+寬約11圈又16mm=240步,1mm=15步
 */
-
-void Y_acc(word Y_Micro,boolean dir){//順轉  -頭朝下則逆轉:向後，逆轉  -頭朝下則順轉:向前
+/*
+void Y_acc(word Y_Micro,boolean dir,word stps){//順轉false  -頭朝下則逆轉:向後，逆轉true  -頭朝下則順轉:向前
   digitalWrite(Y_DIR,dir);
   digitalWrite(YY_DIR,dir);
   for (long int i = 0; i < stps; i++){
@@ -16,15 +18,11 @@ void Y_acc(word Y_Micro,boolean dir){//順轉  -頭朝下則逆轉:向後，逆�
       digitalWrite(Y_STP, LOW);
       digitalWrite(YY_STP,LOW);
       delayMicroseconds(Micro);
-      if (digitalRead(Y_LIMIT) == HIGH){
-        Serial.println("Arrival"); 
-        delay(1000);
-        break; 
-      }
     }
   }
-} 
-void X_acc(word Micro,boolean dir){//順轉  -頭朝下則逆轉:向右，逆轉  -頭朝下則順轉:向左
+}
+*/
+void X_acc(word Micro,boolean dir,word stps){//順轉  -頭朝下則逆轉:向右，逆轉  -頭朝下則順轉:向左
   digitalWrite(X_DIR,dir);
   for (long int i = 0; i < stps; i++){
     if (i%3 ==0) {
@@ -32,15 +30,11 @@ void X_acc(word Micro,boolean dir){//順轉  -頭朝下則逆轉:向右，逆轉
       delayMicroseconds(Micro);
       digitalWrite(X_STP, LOW);
       delayMicroseconds(Micro);
-      if (digitalRead(X_LIMIT) == HIGH){
-        Serial.println("Arrival"); 
-        delay(1000);
-        break; 
-      }
     }
   }
 }
-void Diagonally_acc(word Micro,boolean Y_dir,boolean X_dir) {
+/*
+void Diagonally_acc(word Micro,boolean Y_dir,boolean X_dir,word stps) {
   digitalWrite(X_DIR, X_dir);  //true:右，false:左
   digitalWrite(Y_DIR, Y_dir);  //true:上，false:下
   digitalWrite(YY_DIR, Y_dir); 
@@ -54,11 +48,7 @@ void Diagonally_acc(word Micro,boolean Y_dir,boolean X_dir) {
       digitalWrite(Y_STP, LOW);
       digitalWrite(YY_STP,LOW);
       delayMicroseconds(Micro);
-      if (digitalRead(Y_LIMIT) == HIGH || digitalRead(X_LIMIT) == HIGH){
-        Serial.println("Arrival");
-        delay(1000);
-        break;
-      }
     }
   }
 }
+*/

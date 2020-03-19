@@ -15,11 +15,14 @@ void setup() {
 }
 
 void loop() {
+  limit();
   if (Serial.available()){
     str = Serial.readStringUntil('\n');
-    if (str == "Push"){
-      Y_step_true();
-      Serial.println("Push");
+    if (str == "Right"){
+      X_acc(false);
+    }
+    else if(str == "Left"){
+      X_acc(true);
     }
   }
 }

@@ -36,11 +36,6 @@ void Y_acc(word Micro,boolean dir){//順轉  -頭朝下則逆轉:向右，逆轉
       delayMicroseconds(Micro);
       digitalWrite(Y_STP, LOW);
       delayMicroseconds(Micro);
-      if (digitalRead(Y_LIMIT) == HIGH){
-        Serial.println("Arrival"); 
-        delay(1000);
-        break; 
-      }
     }
   }
 }

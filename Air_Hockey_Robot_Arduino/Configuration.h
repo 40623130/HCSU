@@ -8,8 +8,7 @@
 #define X_LIMIT 9  //x軸 極限開關
 #define Y_LIMIT 10  //y軸 極限開關
 
-int X_state = 1;
-int Y_state = 1;
-int stps = 1000;
+int X_state = 0;
+int Y_state = 0;
 word Micro;
 String str;

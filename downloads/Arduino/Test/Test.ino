@@ -4,8 +4,7 @@
 #define Y_STP 3   //y軸 步進控制
 #define YY_STP 4  //y軸 步進控制
 #define Y_LIMIT 10  //y軸 極限開關
-int state = 1;
-int stps = 600;
+int state = 0;
 
 void setup() {
   pinMode(Y_DIR, OUTPUT);
@@ -15,30 +14,42 @@ void setup() {
   pinMode(EN, OUTPUT);
   pinMode(Y_LIMIT, INPUT);
   digitalWrite(EN, LOW);
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop() {
-  while (state == 1){
-    acc(1000,true);
-    acc(800,true);
-    acc(700,true);
-    acc(600,true);
-    acc(500,true);
-    acc(450,true);
-    acc(400,true);
-    acc(350,true);
-    acc(320,true);
-    acc(270,true);
-    acc(260,true);
-    acc(210,true);
-    acc(160,true);
-    acc(120,true);
-    state = 0;
+  switch(state){
+    case 0:
+      for (word i = 540;i > 120;i--){
+        acc(i,true,5);
+        if (i == 121){
+          state = 1;
+        }
+      }
+      break;
+    case 1:
+      do {
+        acc(130,true,60);
+      }while(digitalRead(Y_LIMIT) == LOW);
+      for (word i = 130;i < 200;i++){
+        acc(i,true,10);
+        if (i == 199){
+          state = 3;
+        }
+      }
+      break;
+    case 2:
+      for (word i = 200;i < 440;i++){
+        acc(i,true,10);
+      }
+      state = 3;
+    default:
+      state = 3;
   }
 }
 
-void acc(word Micro,boolean dir){
+
+void acc(word Micro,boolean dir,word stps){
   digitalWrite(Y_DIR,dir);
   digitalWrite(YY_DIR,dir);
   for (long int i = 0; i < stps; i++){
@@ -49,10 +60,6 @@ void acc(word Micro,boolean dir){
       digitalWrite(Y_STP, LOW);
       digitalWrite(YY_STP,LOW);
       delayMicroseconds(Micro);
-    }
-    else if (digitalRead(Y_LIMIT) == HIGH){
-      delay(1000);
-      break; 
     }
   }
 } 
