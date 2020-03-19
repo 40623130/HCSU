@@ -19,10 +19,10 @@ void loop() {
   if (Serial.available()){
     str = Serial.readStringUntil('\n');
     if (str == "Right"){
-      X_acc(false);
+      X_run(false);
     }
     else if(str == "Left"){
-      X_acc(true);
+      X_run(true);
     }
   }
 }

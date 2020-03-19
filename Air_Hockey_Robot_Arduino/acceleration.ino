@@ -1,8 +1,8 @@
-void X_acc(boolean dir){
+void X_run(boolean dir){
   switch(X_state){
     case 0:
       for (word i = 540;i > 120;i--){
-        X_acc(i,dir,5);
+        X_acc(i,dir,10);
         if (i == 121){
           X_state = 1;
         }
@@ -11,7 +11,7 @@ void X_acc(boolean dir){
     case 1:
       do {
         X_acc(130,dir,60);
-      }while(str == "Closer");
+      }while(str != "Closer");
       for (word i = 130;i < 190;i++){
         X_acc(i,dir,5);
         if (i == 199){
