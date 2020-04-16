@@ -25,7 +25,7 @@ if __name__ == '__main__':
         opening = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
         # Display the resulting frame
         #cv2.imshow('frame',opening)
-        cv2.imshow('frame',mask)
+        cv2.imshow('frame',frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     # When everything done, release the capture
