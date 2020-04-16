@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-03-19T19:05:00+08:00</updated><entry><title>專題開會-4</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-Meeting-4.html" rel="alternate"></link><published>2020-03-19T19:05:00+08:00</published><updated>2020-03-19T19:05:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-03-19:/HCSU/blog/Seminar Topic-Meeting-4.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數42天。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>專題研究日誌</title><link href="https://40623130.github.io/HCSU/blog/" rel="alternate"></link><link href="https://40623130.github.io/HCSU/blog/feeds/all.atom.xml" rel="self"></link><id>https://40623130.github.io/HCSU/blog/</id><updated>2020-04-16T07:20:00+08:00</updated><entry><title>專題進度-26</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-26.html" rel="alternate"></link><published>2020-04-16T07:20:00+08:00</published><updated>2020-04-16T07:20:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-04-16:/HCSU/blog/Seminar Topic-26.html</id><summary type="html">&lt;p&gt;假設5/1號專題發表 : 倒數14天。
+從3/17開始之後的星期四 : 兩次搬東西、一次放假、一次進度報告。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;至今日進度 :&lt;/p&gt;
+&lt;p&gt;Python : GUI介面、攝影機的顏色辨識校正、程式整理及合併。&lt;/p&gt;
+&lt;p&gt;Arduino : 加速度資料庫測試、加速度部分重新編寫、利用雙執行緒解決XY軸加速度問題，可斜向移動、測試shield .v3其他插孔的應用。&lt;/p&gt;
+&lt;p&gt;報告編寫 : 中文摘要、致謝、目錄、前言、研究動機、研究目的與方法、未來展望、實體組立、零組件設計、零組件組立、問題與解決方法(持續更新)、作者簡介、附錄。&lt;/p&gt;
+&lt;p&gt;3D列印機 : 研究及探討斷層與橋曲問題、解決Y軸不同步問題、列印物件比對、保養、列印速度無故下降的問題改善。&lt;/p&gt;
+&lt;p&gt;模型 : 由於馬達撞擊扭力過強，極限開關需重新固定，皮帶部分重新拉緊、保養、Joystick組裝、風扇外型調整以及測試。&lt;/p&gt;
+&lt;p&gt;整理實驗室。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;假設5/1號專題發表 : 倒數14天。
+從3/17開始之後的星期四 : 兩次搬東西、一次放假、一次進度報告。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;至今日進度 :&lt;/p&gt;
+&lt;p&gt;Python : GUI介面、攝影機的顏色辨識校正、程式整理及合併。&lt;/p&gt;
+&lt;p&gt;Arduino : 加速度資料庫測試、加速度部分重新編寫、利用雙執行緒解決XY軸加速度問題，可斜向移動、測試shield .v3其他插孔的應用。&lt;/p&gt;
+&lt;p&gt;報告編寫 : 中文摘要、致謝、目錄、前言、研究動機、研究目的與方法、未來展望、實體組立、零組件設計、零組件組立、問題與解決方法(持續更新)、作者簡介、附錄。&lt;/p&gt;
+&lt;p&gt;3D列印機 : 研究及探討斷層與橋曲問題、解決Y軸不同步問題、列印物件比對、保養、列印速度無故下降的問題改善。&lt;/p&gt;
+&lt;p&gt;模型 : 由於馬達撞擊扭力過強，極限開關需重新固定，皮帶部分重新拉緊、保養、Joystick組裝、風扇外型調整以及測試。&lt;/p&gt;
+&lt;p&gt;整理實驗室。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;問題 : &lt;/p&gt;
+&lt;p&gt;報告 : 缺組裝時的照片。&lt;/p&gt;
+&lt;p&gt;模型 : 風扇、浮球浮力問題、球檯震動及馬達速度過慢。&lt;/p&gt;
+&lt;p&gt;程式 : GUI功能邏輯卡住、Python與Arduino之間連接優化。&lt;/p&gt;</content><category term="KMOL-專題"></category></entry><entry><title>專題開會-4</title><link href="https://40623130.github.io/HCSU/blog/Seminar%20Topic-Meeting-4.html" rel="alternate"></link><published>2020-03-19T19:05:00+08:00</published><updated>2020-03-19T19:05:00+08:00</updated><author><name>HCSU</name></author><id>tag:40623130.github.io,2020-03-19:/HCSU/blog/Seminar Topic-Meeting-4.html</id><summary type="html">&lt;h2&gt;假設5/1號專題發表 : 倒數42天。&lt;/h2&gt;
 &lt;p&gt;今日進度 :&lt;/p&gt;
 &lt;p&gt;程式 : 影像辨識雜訊問題處理完畢、Arduino主程式第一版本測試。&lt;/p&gt;
 &lt;p&gt;修復3DP : 風扇修理&amp;amp;保養(學長機型)。&lt;/p&gt;
