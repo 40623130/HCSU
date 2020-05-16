@@ -31,7 +31,7 @@ def track_green_object(image):
         ctr = (centroid_x, centroid_y)
     return ctr
 
-def track_blue_object(image):
+def track_red_object(image):
     # Blur the image to reduce noise100
     blur = cv2.GaussianBlur(image, (5,5),0)
     # Convert BGR to HSV
@@ -58,7 +58,7 @@ def track_blue_object(image):
         ctr = (centroid_x, centroid_y)
     return ctr
     
-def track_red_object(image):
+def track_blue_object(image):
     # Blur the image to reduce noise100
     blur = cv2.GaussianBlur(image, (5,5),0)
     # Convert BGR to HSV
