@@ -8,19 +8,19 @@ defineTaskLoop(Task1) {
     while (Serial.available()){
       delay(2);
       if (readString == "RIGHT"){
-        Motor_s = true;
+        X_Motor_s = true;
       }
       else if (readString == "LEFT"){
-        Motor_s = false;
+        X_Motor_s = false;
       }
       delay(2);
       if (Serial.available() >0){
         char T = Serial.read();  //gets one byte from serial buffer
         readString += T;         //makes the string readString
-        if (Motor_s == true){
+        if (X_Motor_s == true){
           X_acc(T,true);
         }
-        else if (Motor_s == false){
+        else if (X_Motor_s == false){
           X_acc(T,false);
         }
       }
