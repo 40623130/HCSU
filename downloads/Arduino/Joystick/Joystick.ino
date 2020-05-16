@@ -14,7 +14,6 @@ int vrx_data = 0;
 int vry_data = 0; 
 int x_a = 0;
 int y_a = 0; 
-int x = 0;
 int stps = 3;
  
 void setup() {
@@ -37,12 +36,10 @@ void setup() {
 void loop(){  
   yield();
   vrx_data = analogRead(vrx);
-  vry_data = analogRead(vry);
-  x_a = (-0.00000001347273389130310*vrx_data-0.003377156313595)*(vrx_data-1013)*(vrx_data-10)+150;
-  y_a = (-0.00000001347273389130310*vry_data-0.003377156313595)*(vry_data-1013)*(vry_data-10)+150;
+  x_a = ((-0.00000001347273389130310*vrx_data) -0.003377156313595)*(vrx_data-1013)*(vrx_data-10)+150;
   if (digitalRead(X_LIMIT) == LOW){
-    if (vrx_data > 494 && vrx_data < 530){
-      ;//Range = 1023 於512為中點- && vry_data > 494 && vry_data < 530
+    if (vrx_data > 494 && vrx_data < 530){//Range = 1023 於512為中點
+      ;
     }
     else if (vrx_data > 530){
       X_acc(x_a,false);
@@ -50,20 +47,14 @@ void loop(){
     else if (vrx_data < 494){
       X_acc(x_a,true);
     }
-    /*else if (vry_data > 530){
-      Y_acc(y_a,true);
-    }
-    else if (vry_data < 494){
-      Y_acc(y_a,false);
-    }*/
   }
 }
 defineTaskLoop(Task1) {
   vry_data = analogRead(vry);
-  y_a = (-0.00000001347273389130310*vry_data-0.003377156313595)*(vry_data-1013)*(vry_data-10)+150;
+  y_a = ((-5.943853187337017e-09*vry_data) -0.001489921903057)*(vry_data-1013)*(vry_data-10)+150;
   if (digitalRead(X_LIMIT) == LOW){
-    if (vry_data > 494 && vry_data < 530){
-      ;//Range = 1023 於512為中點
+    if (vry_data > 494 && vry_data < 530){//Range = 1023 於512為中點
+      ;
     }
     else if (vry_data > 530){
       Y_acc(y_a,true);
