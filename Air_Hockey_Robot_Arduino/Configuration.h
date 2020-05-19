@@ -6,8 +6,8 @@
 #define X_STP 2    //x軸 步進控制
 #define Y_STP 3    //y軸 步進控制
 #define YY_STP 4   //y軸 步進控制
-#define X_LIMIT_S 9  //x軸 極限開關
-#define Y_LIMIT_S 10 //y軸 極限開關
+#define X_LIMIT_R 9  //x軸 極限開關
+#define X_LIMIT_L 10 //y軸 極限開關
 #define vrx A0     //joystick-Abort
 #define vry A1     //coolEn
 
@@ -20,7 +20,8 @@ boolean Y_Motor_s;
 String readString;
 int x_a = 0;
 int y_a = 0; 
-int stps = 3;
+int stps = 4;
+int Limit_Situasion = 1;
 
 void setup() {
   mySCoop.start();
@@ -32,7 +33,9 @@ void setup() {
   pinMode(YY_DIR, OUTPUT);
   pinMode(YY_STP, OUTPUT);
   pinMode(EN, OUTPUT);
-  pinMode(X_LIMIT_S, INPUT);
-  pinMode(Y_LIMIT_S, INPUT);
+  pinMode(X_LIMIT_R, INPUT);
+  pinMode(X_LIMIT_L, INPUT);
   digitalWrite(EN, LOW);
+  //X_Motor_s = true;
+  //Y_Motor_s = true;
 }
