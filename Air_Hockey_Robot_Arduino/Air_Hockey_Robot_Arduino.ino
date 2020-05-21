@@ -2,7 +2,7 @@
 
 void loop() {
   X_limit();
-  test();
+  Limit();
   //Y_limit_B();
   yield();
 }

@@ -9,7 +9,7 @@ void X_limit() {
   }
 }
 
-void test(){
+void Limit(){
   if(Limit_Situasion == 1){
     X_acc(300,false,1000);
     delay(10);
