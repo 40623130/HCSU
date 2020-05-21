@@ -1,7 +1,7 @@
 #include "Configuration.h"
 
 void loop() {
-  X_limit();
-  Y_limit();
+  Limit();
+  Limit_S();
   yield();
 }
