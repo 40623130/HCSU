@@ -16,9 +16,7 @@ int X_state = 0;
 int Y_state = 0;
 int vrx_data = 0; 
 int vry_data = 0;
-boolean X_Motor_s;
-boolean Y_Motor_s;
-String readString;
+String str;
 int x_a = 0;
 int y_a = 0; 
 int stps = 4;
@@ -38,6 +36,4 @@ void setup() {
   pinMode(X_LIMIT_L, INPUT);
   pinMode(Y_LIMIT, INPUT);
   digitalWrite(EN, LOW);
-  //X_Motor_s = true;
-  //Y_Motor_s = true;
 }
