@@ -16,10 +16,12 @@ int X_state = 0;
 int Y_state = 0;
 int vrx_data = 0; 
 int vry_data = 0;
-String str;
+String readString;
 int x_a = 0;
 int y_a = 0; 
 int stps = 4;
+int A_stps = 20;
+int Moter_S = 0;
 int Limit_Situasion = 1;
 
 void setup() {
